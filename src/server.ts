@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 import { Server } from 'socket.io';
 import app from './app';
 import config from './config';
+import { seedAdmin } from './DB/seedAdmin';
 import { socketHelper } from './helpers/socketHelper';
 import { errorLogger, logger } from './shared/logger';
 
@@ -15,6 +16,8 @@ process.on('uncaughtException', error => {
 let server: any;
 async function main() {
   try {
+    //seed admin
+    seedAdmin();
     mongoose.connect(config.database_url as string);
     logger.info(colors.green('🚀 Database connected successfully'));
 

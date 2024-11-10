@@ -5,6 +5,11 @@ import { IBio } from './bio.interface';
 import { Bio } from './bio.model';
 
 const createUserBioToDB = async (payload: IBio) => {
+  const isExistBioForThatUser = await Bio.findById(payload.user);
+  if (!isExistBioForThatUser) {
+    throw new ApiError(StatusCodes.BAD_REQUEST, 'You already add your bio');
+  }
+
   const createBio = await Bio.create(payload);
   if (!createBio) {
     throw new ApiError(StatusCodes.BAD_REQUEST, 'Failed to create user about');
