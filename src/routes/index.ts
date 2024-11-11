@@ -1,8 +1,10 @@
 import express from 'express';
 import { AuthRoutes } from '../app/modules/auth/auth.route';
 import { BioRoutes } from '../app/modules/bio/bio.route';
+import { BlogRoutes } from '../app/modules/blog/blog.route';
 import { GalleryRoutes } from '../app/modules/gallery/gallery.route';
 import { QuestionnaireRoutes } from '../app/modules/questionnaire/questionnaire.route';
+import { ResourcesRoutes } from '../app/modules/resources/resources.route';
 import { UserRoutes } from '../app/modules/user/user.route';
 const router = express.Router();
 
@@ -26,6 +28,14 @@ const apiRoutes = [
   {
     path: '/gallery',
     route: GalleryRoutes,
+  },
+  {
+    path: '/resources',
+    route: ResourcesRoutes,
+  },
+  {
+    path: '/blogs',
+    route: BlogRoutes,
   },
 ];
 
