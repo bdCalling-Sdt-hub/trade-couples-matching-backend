@@ -47,7 +47,7 @@ const updatePress = catchAsync(async (req: Request, res: Response) => {
 //affiliate
 const createAffiliateProgram = catchAsync(
   async (req: Request, res: Response) => {
-    const result = await ResourcesService.createPressToDB({
+    const result = await ResourcesService.createAffiliateProgramToDB({
       type: RESOURCES_TYPE.AFFILIATE,
       ...req.body,
     });
@@ -62,7 +62,7 @@ const createAffiliateProgram = catchAsync(
 );
 
 const getAffiliateProgram = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.getPressFromDB();
+  const result = await ResourcesService.getAffiliateProgramFromDB();
 
   sendResponse(res, {
     success: true,
@@ -74,7 +74,7 @@ const getAffiliateProgram = catchAsync(async (req: Request, res: Response) => {
 
 const updateAffiliateProgram = catchAsync(
   async (req: Request, res: Response) => {
-    const result = await ResourcesService.updatePressToDB({
+    const result = await ResourcesService.updateAffiliateProgramToDB({
       ...req.body,
     });
 
@@ -89,234 +89,234 @@ const updateAffiliateProgram = catchAsync(
 
 //support
 const createSupport = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.createPressToDB({
-    type: RESOURCES_TYPE.PRESS,
+  const result = await ResourcesService.createSupportToDB({
+    type: RESOURCES_TYPE.SUPPORT,
     ...req.body,
   });
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data created successfully',
+    message: 'Support data created successfully',
     data: result,
   });
 });
 
 const getSupport = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.getPressFromDB();
+  const result = await ResourcesService.getSupportFromDB();
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data retrieved successfully',
+    message: 'Support data retrieved successfully',
     data: result,
   });
 });
 
 const updateSupport = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.updatePressToDB({
+  const result = await ResourcesService.updateSupportToDB({
     ...req.body,
   });
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data updated successfully',
+    message: 'Support data updated successfully',
     data: result,
   });
 });
 
 //terms
 const createTerms = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.createPressToDB({
-    type: RESOURCES_TYPE.PRESS,
+  const result = await ResourcesService.createTermsToDB({
+    type: RESOURCES_TYPE.TERMS,
     ...req.body,
   });
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data created successfully',
+    message: 'Terms data created successfully',
     data: result,
   });
 });
 
 const getTerms = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.getPressFromDB();
+  const result = await ResourcesService.getTermsFromDB();
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data retrieved successfully',
+    message: 'Terms data retrieved successfully',
     data: result,
   });
 });
 
 const updateTerms = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.updatePressToDB({
+  const result = await ResourcesService.updateTermsToDB({
     ...req.body,
   });
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data updated successfully',
+    message: 'Terms data updated successfully',
     data: result,
   });
 });
 
 //policy
 const createPolicy = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.createPressToDB({
-    type: RESOURCES_TYPE.PRESS,
+  const result = await ResourcesService.createPolicyToDB({
+    type: RESOURCES_TYPE.POLICY,
     ...req.body,
   });
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data created successfully',
+    message: 'Policy data created successfully',
     data: result,
   });
 });
 
 const getPolicy = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.getPressFromDB();
+  const result = await ResourcesService.getPolicyFromDB();
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data retrieved successfully',
+    message: 'Policy data retrieved successfully',
     data: result,
   });
 });
 
 const updatePolicy = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.updatePressToDB({
+  const result = await ResourcesService.updatePolicyToDB({
     ...req.body,
   });
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data updated successfully',
+    message: 'Policy data updated successfully',
     data: result,
   });
 });
 
 //about
 const createAbout = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.createPressToDB({
-    type: RESOURCES_TYPE.PRESS,
+  const result = await ResourcesService.createAboutToDB({
+    type: RESOURCES_TYPE.ABOUT,
     ...req.body,
   });
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data created successfully',
+    message: 'About data created successfully',
     data: result,
   });
 });
 
 const getAbout = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.getPressFromDB();
+  const result = await ResourcesService.getAboutFromDB();
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data retrieved successfully',
+    message: 'About data retrieved successfully',
     data: result,
   });
 });
 
 const updateAbout = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.updatePressToDB({
+  const result = await ResourcesService.updateAboutToDB({
     ...req.body,
   });
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data updated successfully',
+    message: 'About data updated successfully',
     data: result,
   });
 });
 
 //safety
 const createSafetyData = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.createPressToDB({
-    type: RESOURCES_TYPE.PRESS,
+  const result = await ResourcesService.createSafetyDataToDB({
+    type: RESOURCES_TYPE.SAFETY,
     ...req.body,
   });
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data created successfully',
+    message: 'Safety data created successfully',
     data: result,
   });
 });
 
 const getSafetyData = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.getPressFromDB();
+  const result = await ResourcesService.getSafetyDataFromDB();
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data retrieved successfully',
+    message: 'Safety data retrieved successfully',
     data: result,
   });
 });
 
 const updateSafetyData = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.updatePressToDB({
+  const result = await ResourcesService.updateSafetyDataToDB({
     ...req.body,
   });
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data updated successfully',
+    message: 'Safety data updated successfully',
     data: result,
   });
 });
 
-//press
+//cookie
 const createCookieData = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.createPressToDB({
-    type: RESOURCES_TYPE.PRESS,
+  const result = await ResourcesService.createCookieDataToDB({
+    type: RESOURCES_TYPE.COOKIE,
     ...req.body,
   });
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data created successfully',
+    message: 'Cookie data created successfully',
     data: result,
   });
 });
 
 const getCookieData = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.getPressFromDB();
+  const result = await ResourcesService.getCookieDataFromDB();
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data retrieved successfully',
+    message: 'Cookie data retrieved successfully',
     data: result,
   });
 });
 
 const updateCookieData = catchAsync(async (req: Request, res: Response) => {
-  const result = await ResourcesService.updatePressToDB({
+  const result = await ResourcesService.updateCookieDataToDB({
     ...req.body,
   });
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Press data updated successfully',
+    message: 'Cookie data updated successfully',
     data: result,
   });
 });
