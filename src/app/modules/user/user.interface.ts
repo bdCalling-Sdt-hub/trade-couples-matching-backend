@@ -13,6 +13,8 @@ export type IUser = {
   verified: boolean;
   isAnswered: boolean;
   isBio: boolean;
+  isSubscribed: boolean;
+  trialEndDate: Date;
   authentication?: {
     isResetPassword: boolean;
     oneTimeCode: number;
