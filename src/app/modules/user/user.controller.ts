@@ -51,4 +51,49 @@ const updateProfile = catchAsync(
   }
 );
 
-export const UserController = { createUser, getUserProfile, updateProfile };
+//create admin
+const createAdmin = catchAsync(
+  async (req: Request, res: Response, next: NextFunction) => {
+    const { ...userData } = req.body;
+    const result = await UserService.createAdminToDB(userData);
+
+    sendResponse(res, {
+      success: true,
+      statusCode: StatusCodes.OK,
+      message: 'Admin profile created successfully',
+      data: result,
+    });
+  }
+);
+
+const getAllAdmin = catchAsync(async (req: Request, res: Response) => {
+  const result = await UserService.getAllAdminFromDB();
+
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'All admin data retrieved successfully',
+    data: result,
+  });
+});
+
+const deleteAdmin = catchAsync(async (req: Request, res: Response) => {
+  const id = req.params.id;
+  const result = await UserService.deleteAdminToDB(id);
+
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'Delete admin data retrieved successfully',
+    data: result,
+  });
+});
+
+export const UserController = {
+  createUser,
+  getUserProfile,
+  updateProfile,
+  createAdmin,
+  getAllAdmin,
+  deleteAdmin,
+};

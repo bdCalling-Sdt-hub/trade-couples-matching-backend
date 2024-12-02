@@ -10,7 +10,7 @@ const router = express.Router();
 
 router.post(
   '/create-blog',
-  auth(USER_ROLES.ADMIN),
+  auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
   fileUploadHandler(),
   (req: Request, res: Response, next: NextFunction) => {
     if (!req.body.data) {
@@ -30,7 +30,7 @@ router
   .route('/:id')
   .get(BlogController.getSingleBlog)
   .patch(
-    auth(USER_ROLES.ADMIN),
+    auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
     fileUploadHandler(),
     (req: Request, res: Response, next: NextFunction) => {
       if (req.body.data) {

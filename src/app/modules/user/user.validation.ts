@@ -4,7 +4,7 @@ import { gender } from '../../../shared/constrant';
 const createUserZodSchema = z.object({
   body: z.object({
     name: z.string({ required_error: 'Name is required' }),
-    contact: z.string({ required_error: 'Contact is required' }),
+    contact: z.string().optional(),
     email: z.string({ required_error: 'Email is required' }),
     password: z.string({ required_error: 'Password is required' }),
     gender: z.enum([...gender] as [string, ...string[]], {

@@ -75,8 +75,50 @@ const updateProfileToDB = async (
   return updateDoc;
 };
 
+//create admin
+const createAdminToDB = async (payload: Partial<IUser>) => {
+  //set role
+  payload.role = USER_ROLES.ADMIN;
+  payload.verified = true;
+
+  const createAdmin = await User.create(payload);
+  if (!createAdmin) {
+    throw new ApiError(StatusCodes.BAD_REQUEST, 'Failed to create admin');
+  }
+
+  return createAdmin;
+};
+
+const getAllAdminFromDB = async () => {
+  const isExistAdmin = await User.find({ role: { $eq: USER_ROLES.ADMIN } });
+  if (!isExistAdmin) {
+    throw new ApiError(StatusCodes.NOT_FOUND, "Admin doesn't exist!");
+  }
+
+  return isExistAdmin;
+};
+
+const deleteAdminToDB = async (id: string) => {
+  const isExistUser = await User.isExistUserById(id);
+  if (!isExistUser) {
+    throw new ApiError(StatusCodes.BAD_REQUEST, "Admin doesn't exist!");
+  }
+
+  //unlink file here
+  if (isExistUser.image) {
+    unlinkFile(isExistUser.image);
+  }
+
+  const deleteData = await User.findByIdAndDelete(isExistUser._id);
+
+  return deleteData;
+};
+
 export const UserService = {
   createUserToDB,
   getUserProfileFromDB,
   updateProfileToDB,
+  createAdminToDB,
+  getAllAdminFromDB,
+  deleteAdminToDB,
 };

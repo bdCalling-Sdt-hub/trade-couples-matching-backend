@@ -9,7 +9,7 @@ const router = express.Router();
 
 router.get(
   '/profile',
-  auth(USER_ROLES.ADMIN, USER_ROLES.USER),
+  auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN, USER_ROLES.USER),
   UserController.getUserProfile
 );
 
@@ -21,7 +21,7 @@ router.post(
 
 router.patch(
   '/profile-update',
-  auth(USER_ROLES.ADMIN, USER_ROLES.USER),
+  auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN, USER_ROLES.USER),
   fileUploadHandler(),
   (req: Request, res: Response, next: NextFunction) => {
     if (req.body.data) {
@@ -32,5 +32,17 @@ router.patch(
     return UserController.updateProfile(req, res, next);
   }
 );
+
+//create admin
+router.post(
+  '/create-admin',
+  auth(USER_ROLES.SUPER_ADMIN),
+  validateRequest(UserValidation.createUserZodSchema),
+  UserController.createAdmin
+);
+
+router.get('/admin', auth(USER_ROLES.SUPER_ADMIN), UserController.getAllAdmin);
+
+router.delete('/:id', auth(USER_ROLES.SUPER_ADMIN), UserController.deleteAdmin);
 
 export const UserRoutes = router;

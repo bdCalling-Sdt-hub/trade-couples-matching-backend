@@ -62,6 +62,7 @@ const userSchema = new Schema<IUser, UserModal>(
     trialEndDate: {
       type: Date,
       default: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+      select: 0,
     },
     authentication: {
       type: {

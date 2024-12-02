@@ -7,7 +7,7 @@ const payload = {
   name: 'Administrator',
   email: config.admin_email,
   gender: 'male',
-  role: USER_ROLES.ADMIN,
+  role: USER_ROLES.SUPER_ADMIN,
   password: config.admin_pass,
   verified: true,
 };
@@ -15,7 +15,7 @@ const payload = {
 export const seedAdmin = async () => {
   const isExistAdmin = await User.findOne({
     email: config.admin_email,
-    role: USER_ROLES.ADMIN,
+    role: USER_ROLES.SUPER_ADMIN,
   });
   if (!isExistAdmin) {
     await User.create(payload);

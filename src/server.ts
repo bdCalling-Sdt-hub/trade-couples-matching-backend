@@ -4,6 +4,7 @@ import { Server } from 'socket.io';
 import app from './app';
 import config from './config';
 import { seedAdmin } from './DB/seedAdmin';
+import { scheduleHelper } from './helpers/scheduleHelper';
 import { socketHelper } from './helpers/socketHelper';
 import { errorLogger, logger } from './shared/logger';
 
@@ -40,6 +41,9 @@ async function main() {
     socketHelper.socket(io);
     //@ts-ignore
     global.io = io;
+
+    //corn job
+    scheduleHelper.scheduleJob();
   } catch (error) {
     errorLogger.error(colors.red('🤢 Failed to connect Database'));
   }
