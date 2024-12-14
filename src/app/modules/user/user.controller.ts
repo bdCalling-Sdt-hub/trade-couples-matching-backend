@@ -77,14 +77,40 @@ const getAllAdmin = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
-const deleteAdmin = catchAsync(async (req: Request, res: Response) => {
+const userStatusAction = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id;
-  const result = await UserService.deleteAdminToDB(id);
+  const result = await UserService.userStatusActionToDB(id);
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Delete admin data retrieved successfully',
+    message: `${
+      result?.role.charAt(0).toUpperCase() + result?.role.slice(1)
+    } has been successfully ${result?.status}ed`,
+    data: result,
+  });
+});
+
+//users
+const getAllUser = catchAsync(async (req: Request, res: Response) => {
+  const result = await UserService.getAllUserFromDB();
+
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'All user data retrieved successfully',
+    data: result,
+  });
+});
+
+const getSingleUser = catchAsync(async (req: Request, res: Response) => {
+  const id = req.params.id;
+  const result = await UserService.getSingleUserFromDB(id);
+
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'Single user data retrieved successfully',
     data: result,
   });
 });
@@ -95,5 +121,7 @@ export const UserController = {
   updateProfile,
   createAdmin,
   getAllAdmin,
-  deleteAdmin,
+  userStatusAction,
+  getSingleUser,
+  getAllUser,
 };

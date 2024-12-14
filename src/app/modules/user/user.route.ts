@@ -33,7 +33,7 @@ router.patch(
   }
 );
 
-//create admin
+//admin
 router.post(
   '/create-admin',
   auth(USER_ROLES.SUPER_ADMIN),
@@ -41,8 +41,25 @@ router.post(
   UserController.createAdmin
 );
 
-router.get('/admin', auth(USER_ROLES.SUPER_ADMIN), UserController.getAllAdmin);
+router.get(
+  '/all-admin',
+  auth(USER_ROLES.SUPER_ADMIN),
+  UserController.getAllAdmin
+);
 
-router.delete('/:id', auth(USER_ROLES.SUPER_ADMIN), UserController.deleteAdmin);
+//users getting api
+router.get(
+  '/all-user',
+  auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN, USER_ROLES.USER),
+  UserController.getAllUser
+);
+
+router
+  .route('/:id')
+  .get(
+    auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
+    UserController.getSingleUser
+  )
+  .delete(auth(USER_ROLES.SUPER_ADMIN), UserController.userStatusAction);
 
 export const UserRoutes = router;

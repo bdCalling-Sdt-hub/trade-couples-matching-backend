@@ -96,6 +96,21 @@ userSchema.statics.isExistUserByEmail = async (email: string) => {
   return isExist;
 };
 
+//user status action
+userSchema.statics.userStatusSwitcher = async (id: string) => {
+  const isExistUser = await User.isExistUserById(id);
+  if (!isExistUser) {
+    throw new ApiError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
+  }
+  const newStatus = isExistUser.status === 'active' ? 'delete' : 'active';
+  const result = await User.findByIdAndUpdate(
+    isExistUser._id,
+    { $set: { status: newStatus } },
+    { new: true }
+  );
+  return result;
+};
+
 //is match password
 userSchema.statics.isMatchPassword = async (
   password: string,

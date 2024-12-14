@@ -75,7 +75,7 @@ const updateProfileToDB = async (
   return updateDoc;
 };
 
-//create admin
+//admin
 const createAdminToDB = async (payload: Partial<IUser>) => {
   //set role
   payload.role = USER_ROLES.ADMIN;
@@ -98,20 +98,28 @@ const getAllAdminFromDB = async () => {
   return isExistAdmin;
 };
 
-const deleteAdminToDB = async (id: string) => {
-  const isExistUser = await User.isExistUserById(id);
+const userStatusActionToDB = async (id: string) => {
+  const deleteUser = await User.userStatusSwitcher(id);
+  return deleteUser;
+};
+
+//user
+const getAllUserFromDB = async () => {
+  const isExistUser = await User.find({ role: { $eq: USER_ROLES.USER } });
   if (!isExistUser) {
-    throw new ApiError(StatusCodes.BAD_REQUEST, "Admin doesn't exist!");
+    throw new ApiError(StatusCodes.NOT_FOUND, "User doesn't exist!");
   }
 
-  //unlink file here
-  if (isExistUser.image) {
-    unlinkFile(isExistUser.image);
+  return isExistUser;
+};
+
+const getSingleUserFromDB = async (id: string) => {
+  const isExistUser = await User.findById(id);
+  if (!isExistUser) {
+    throw new ApiError(StatusCodes.NOT_FOUND, "User doesn't exist!");
   }
 
-  const deleteData = await User.findByIdAndDelete(isExistUser._id);
-
-  return deleteData;
+  return isExistUser;
 };
 
 export const UserService = {
@@ -120,5 +128,7 @@ export const UserService = {
   updateProfileToDB,
   createAdminToDB,
   getAllAdminFromDB,
-  deleteAdminToDB,
+  userStatusActionToDB,
+  getAllUserFromDB,
+  getSingleUserFromDB,
 };

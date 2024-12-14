@@ -3,6 +3,7 @@ import { AuthRoutes } from '../app/modules/auth/auth.route';
 import { BioRoutes } from '../app/modules/bio/bio.route';
 import { BlogRoutes } from '../app/modules/blog/blog.route';
 import { FaqRoutes } from '../app/modules/faq/faq.route';
+import { FavoriteRoutes } from '../app/modules/favorite/favorite.route';
 import { GalleryRoutes } from '../app/modules/gallery/gallery.route';
 import { QuestionnaireRoutes } from '../app/modules/questionnaire/questionnaire.route';
 import { ResourcesRoutes } from '../app/modules/resources/resources.route';
@@ -41,6 +42,10 @@ const apiRoutes = [
   {
     path: '/faq',
     route: FaqRoutes,
+  },
+  {
+    path: '/favorite',
+    route: FavoriteRoutes,
   },
 ];
 
