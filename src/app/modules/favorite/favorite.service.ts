@@ -1,5 +1,6 @@
 import { StatusCodes } from 'http-status-codes';
 import ApiError from '../../../errors/ApiError';
+import { IFavorite } from './favorite.interface';
 import { Favorite } from './favorite.model';
 
 const makeFavoriteToDB = async (
@@ -19,6 +20,16 @@ const makeFavoriteToDB = async (
   return 'User marked as favorite!';
 };
 
+const getFavoriteListFromDB = async (userId: string): Promise<IFavorite[]> => {
+  const result = await Favorite.find({ userId }).populate({
+    path: 'favoriteUserId',
+    select: 'name image',
+  });
+
+  return result;
+};
+
 export const FavoriteService = {
   makeFavoriteToDB,
+  getFavoriteListFromDB,
 };

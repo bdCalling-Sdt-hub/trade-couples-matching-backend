@@ -17,6 +17,19 @@ const makeFavorite = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const getFavoriteList = catchAsync(async (req: Request, res: Response) => {
+  const userId = req.user.id;
+  const result = await FavoriteService.getFavoriteListFromDB(userId);
+
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'Favorite list retrieved successfully',
+    data: result,
+  });
+});
+
 export const FavoriteController = {
   makeFavorite,
+  getFavoriteList,
 };

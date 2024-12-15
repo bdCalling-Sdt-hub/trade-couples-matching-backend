@@ -9,7 +9,7 @@ export type IUser = {
   password: string;
   image?: string;
   gender: 'male' | 'female';
-  status: 'active' | 'delete';
+  status: 'ACTIVE' | 'DELETE';
   verified: boolean;
   isAnswered: boolean;
   isBio: boolean;

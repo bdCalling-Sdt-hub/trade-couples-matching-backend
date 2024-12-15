@@ -7,6 +7,7 @@ import { FavoriteRoutes } from '../app/modules/favorite/favorite.route';
 import { GalleryRoutes } from '../app/modules/gallery/gallery.route';
 import { QuestionnaireRoutes } from '../app/modules/questionnaire/questionnaire.route';
 import { ResourcesRoutes } from '../app/modules/resources/resources.route';
+import { SubscriberRoutes } from '../app/modules/subscriber/subscriber.route';
 import { UserRoutes } from '../app/modules/user/user.route';
 const router = express.Router();
 
@@ -46,6 +47,10 @@ const apiRoutes = [
   {
     path: '/favorite',
     route: FavoriteRoutes,
+  },
+  {
+    path: '/subscriber',
+    route: SubscriberRoutes,
   },
 ];
 

@@ -40,8 +40,8 @@ const userSchema = new Schema<IUser, UserModal>(
     gender: { type: String, enum: gender },
     status: {
       type: String,
-      enum: ['active', 'delete'],
-      default: 'active',
+      enum: ['ACTIVE', 'DELETE'],
+      default: 'ACTIVE',
     },
     verified: {
       type: Boolean,
@@ -102,7 +102,7 @@ userSchema.statics.userStatusSwitcher = async (id: string) => {
   if (!isExistUser) {
     throw new ApiError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
   }
-  const newStatus = isExistUser.status === 'active' ? 'delete' : 'active';
+  const newStatus = isExistUser.status === 'ACTIVE' ? 'DELETE' : 'ACTIVE';
   const result = await User.findByIdAndUpdate(
     isExistUser._id,
     { $set: { status: newStatus } },

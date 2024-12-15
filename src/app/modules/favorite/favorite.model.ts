@@ -8,6 +8,7 @@ const favoriteSchema = new Schema<IFavorite, FavoriteModel>(
       ref: 'User',
       required: true,
       index: true,
+      select: 0,
     },
     favoriteUserId: {
       type: Schema.Types.ObjectId,

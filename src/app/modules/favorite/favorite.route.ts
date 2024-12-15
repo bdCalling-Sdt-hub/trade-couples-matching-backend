@@ -13,4 +13,6 @@ router.post(
   FavoriteController.makeFavorite
 );
 
+router.get('/', auth(USER_ROLES.USER), FavoriteController.getFavoriteList);
+
 export const FavoriteRoutes = router;
