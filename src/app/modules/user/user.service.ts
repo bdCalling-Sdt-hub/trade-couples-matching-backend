@@ -90,7 +90,10 @@ const createAdminToDB = async (payload: Partial<IUser>) => {
 };
 
 const getAllAdminFromDB = async () => {
-  const isExistAdmin = await User.find({ role: { $eq: USER_ROLES.ADMIN } });
+  const isExistAdmin = await User.find({
+    role: { $eq: USER_ROLES.ADMIN },
+    status: { $ne: 'DELETE' },
+  });
   if (!isExistAdmin) {
     throw new ApiError(StatusCodes.NOT_FOUND, "Admin doesn't exist!");
   }
@@ -105,7 +108,10 @@ const userStatusActionToDB = async (id: string) => {
 
 //user
 const getAllUserFromDB = async () => {
-  const isExistUser = await User.find({ role: { $eq: USER_ROLES.USER } });
+  const isExistUser = await User.find({
+    role: { $eq: USER_ROLES.USER },
+    status: { $ne: 'DELETE' },
+  });
   if (!isExistUser) {
     throw new ApiError(StatusCodes.NOT_FOUND, "User doesn't exist!");
   }

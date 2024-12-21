@@ -8,6 +8,13 @@ const subscriberCreateZodSchema = z.object({
   }),
 });
 
+const subscriberRepliedMessage = z.object({
+  body: z.object({
+    description: z.string({ required_error: 'Description is required' }),
+  }),
+});
+
 export const SubscriberValidation = {
   subscriberCreateZodSchema,
+  subscriberRepliedMessage,
 };

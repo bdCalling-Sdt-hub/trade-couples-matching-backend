@@ -8,7 +8,7 @@ export type IUser = {
   email: string;
   password: string;
   image?: string;
-  gender: 'male' | 'female';
+  gender: 'Male' | 'Female';
   status: 'ACTIVE' | 'DELETE';
   verified: boolean;
   isAnswered: boolean;

@@ -6,6 +6,13 @@ import { SubscriberController } from './subscriber.controller';
 import { SubscriberValidation } from './subscriber.validation';
 const router = express.Router();
 
+router.post(
+  '/replied/:id',
+  auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
+  validateRequest(SubscriberValidation.subscriberRepliedMessage),
+  SubscriberController.subscriberRepliedMessage
+);
+
 router
   .route('/')
   .post(

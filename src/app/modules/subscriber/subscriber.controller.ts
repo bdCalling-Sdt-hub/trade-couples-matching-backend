@@ -27,7 +27,24 @@ const getSubscriberList = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const subscriberRepliedMessage = catchAsync(
+  async (req: Request, res: Response) => {
+    const id = req.params.id;
+    const result = await SubscriberService.subscriberRepliedMessageToDB(
+      id,
+      req.body.description
+    );
+    sendResponse(res, {
+      success: true,
+      statusCode: StatusCodes.OK,
+      message: 'Information has been replied successfully',
+      data: result,
+    });
+  }
+);
+
 export const SubscriberController = {
   createSubscriber,
   getSubscriberList,
+  subscriberRepliedMessage,
 };
