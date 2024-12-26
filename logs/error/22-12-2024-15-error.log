@@ -1,0 +1,4 @@
+Sun Dec 22 2024 15:3:32 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/user/sign-up 400 - 7.533 ms
+Sun Dec 22 2024 15:4:2 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/user/sign-up 400 - 8.024 ms
+Sun Dec 22 2024 15:32:29 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/auth/reset-password 401 - 8.338 ms
+Sun Dec 22 2024 15:33:29 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/auth/reset-password 400 - 8.738 ms
