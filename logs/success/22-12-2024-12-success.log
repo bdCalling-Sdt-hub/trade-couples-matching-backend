@@ -1,0 +1,7 @@
+Sun Dec 22 2024 12:40:15 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/user/sign-up 204 - 0.896 ms
+Sun Dec 22 2024 12:43:5 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/user/sign-up 204 - 0.600 ms
+Sun Dec 22 2024 12:43:35 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/user/sign-up 204 - 0.891 ms
+Sun Dec 22 2024 12:43:35 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - POST /api/v1/user/sign-up 200 - 275.752 ms
+Sun Dec 22 2024 12:43:39 [TRAD-COUPLES-MATCHING] info: Mail send successfully
+Sun Dec 22 2024 12:44:10 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - POST /api/v1/user/sign-up 200 - 203.318 ms
+Sun Dec 22 2024 12:44:13 [TRAD-COUPLES-MATCHING] info: Mail send successfully

@@ -1,0 +1,34 @@
+Sun Dec 22 2024 15:3:32 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/user/sign-up 204 - 0.618 ms
+Sun Dec 22 2024 15:4:2 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/user/sign-up 204 - 0.393 ms
+Sun Dec 22 2024 15:4:44 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/user/sign-up 204 - 0.485 ms
+Sun Dec 22 2024 15:4:45 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - POST /api/v1/user/sign-up 200 - 207.180 ms
+Sun Dec 22 2024 15:4:47 [TRAD-COUPLES-MATCHING] info: Mail send successfully
+Sun Dec 22 2024 15:5:13 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/auth/verify-email 204 - 0.538 ms
+Sun Dec 22 2024 15:5:14 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - POST /api/v1/auth/verify-email 200 - 21.408 ms
+Sun Dec 22 2024 15:5:25 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/auth/login 204 - 0.546 ms
+Sun Dec 22 2024 15:5:26 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - POST /api/v1/auth/login 200 - 227.947 ms
+Sun Dec 22 2024 15:20:20 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/auth/forget-password 204 - 0.511 ms
+Sun Dec 22 2024 15:20:20 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - POST /api/v1/auth/forget-password 200 - 10.032 ms
+Sun Dec 22 2024 15:20:23 [TRAD-COUPLES-MATCHING] info: Mail send successfully
+Sun Dec 22 2024 15:20:57 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/auth/verify-email 204 - 0.453 ms
+Sun Dec 22 2024 15:20:57 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - POST /api/v1/auth/verify-email 200 - 36.410 ms
+Sun Dec 22 2024 15:30:36 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/auth/reset-password 204 - 0.483 ms
+Sun Dec 22 2024 15:30:36 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - POST /api/v1/auth/reset-password 200 - 219.027 ms
+Sun Dec 22 2024 15:32:29 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/auth/reset-password 204 - 0.456 ms
+Sun Dec 22 2024 15:32:38 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/auth/forget-password 204 - 0.478 ms
+Sun Dec 22 2024 15:32:38 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - POST /api/v1/auth/forget-password 200 - 9.020 ms
+Sun Dec 22 2024 15:32:41 [TRAD-COUPLES-MATCHING] info: Mail send successfully
+Sun Dec 22 2024 15:33:17 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/auth/verify-email 204 - 0.485 ms
+Sun Dec 22 2024 15:33:17 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - POST /api/v1/auth/verify-email 200 - 9.898 ms
+Sun Dec 22 2024 15:33:29 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/auth/reset-password 204 - 0.068 ms
+Sun Dec 22 2024 15:33:55 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/auth/forget-password 204 - 0.488 ms
+Sun Dec 22 2024 15:33:55 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - POST /api/v1/auth/forget-password 200 - 11.531 ms
+Sun Dec 22 2024 15:33:58 [TRAD-COUPLES-MATCHING] info: Mail send successfully
+Sun Dec 22 2024 15:34:27 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/auth/verify-email 204 - 0.510 ms
+Sun Dec 22 2024 15:34:27 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - POST /api/v1/auth/verify-email 200 - 12.463 ms
+Sun Dec 22 2024 15:34:50 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/auth/reset-password 204 - 0.524 ms
+Sun Dec 22 2024 15:34:50 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - POST /api/v1/auth/reset-password 200 - 203.038 ms
+Sun Dec 22 2024 15:35:7 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/auth/login 204 - 0.488 ms
+Sun Dec 22 2024 15:35:8 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - POST /api/v1/auth/login 200 - 199.346 ms
+Sun Dec 22 2024 15:58:30 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/resources/affiliate 204 - 0.593 ms
+Sun Dec 22 2024 15:58:30 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - GET /api/v1/resources/affiliate 200 - 18.046 ms

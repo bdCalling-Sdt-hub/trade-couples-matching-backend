@@ -1,0 +1,7 @@
+Sun Dec 22 2024 14:10:56 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/user/sign-up 400 - 8.536 ms
+Sun Dec 22 2024 14:12:24 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/user/sign-up 400 - 7.971 ms
+Sun Dec 22 2024 14:12:26 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/user/sign-up 400 - 13.101 ms
+Sun Dec 22 2024 14:12:38 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/user/sign-up 400 - 10.743 ms
+Sun Dec 22 2024 14:13:12 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/user/sign-up 400 - 8.498 ms
+Sun Dec 22 2024 14:20:4 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/user/sign-up 400 - 8.555 ms
+Sun Dec 22 2024 14:23:50 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/user/sign-up 400 - 12.066 ms

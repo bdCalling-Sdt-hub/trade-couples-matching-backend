@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "D:\\Backend\\trad-couples-matching-backend\\logs\\success\\.4f16c4dc5e40804b1799cf9d2421e0dbfbb55980-audit.json",
+    "files": [
+        {
+            "date": 1734840197470,
+            "name": "D:\\Backend\\trad-couples-matching-backend\\logs\\success\\22-12-2024-10-success.log",
+            "hash": "648b0e879d36d2145f598eafe89e32fc1d6a8e8121df9793c44874f9ebef83ad"
+        },
+        {
+            "date": 1734849615565,
+            "name": "D:\\Backend\\trad-couples-matching-backend\\logs\\success\\22-12-2024-12-success.log",
+            "hash": "cd4304c73c1b71981fdcdb6276bfa41ebdfdf6c3f62799aed2c335f33c60fd08"
+        },
+        {
+            "date": 1734855056547,
+            "name": "D:\\Backend\\trad-couples-matching-backend\\logs\\success\\22-12-2024-14-success.log",
+            "hash": "2ebc258605a3662eeab5e9f3129af897bdda2bebc93917d0ebc7cbe3c26dbbb3"
+        },
+        {
+            "date": 1734858212108,
+            "name": "D:\\Backend\\trad-couples-matching-backend\\logs\\success\\22-12-2024-15-success.log",
+            "hash": "c505202938f865313ef71f5251884672b6f71fece7791559f977107f3293c563"
+        },
+        {
+            "date": 1734861721892,
+            "name": "D:\\Backend\\trad-couples-matching-backend\\logs\\success\\22-12-2024-16-success.log",
+            "hash": "93e4081e91e6cdddf1abbc41dd63cf87699ce53d4b1c6bc085bcb074806b7714"
+        },
+        {
+            "date": 1734868999953,
+            "name": "D:\\Backend\\trad-couples-matching-backend\\logs\\success\\22-12-2024-18-success.log",
+            "hash": "5a7c84a815afe5e77e8a2c594ead534fe6cd7ddf1877059a8427d4227751f632"
+        }
+    ],
+    "hashType": "sha256"
+}
