@@ -9,6 +9,10 @@ import { QuestionnaireRoutes } from '../app/modules/questionnaire/questionnaire.
 import { ResourcesRoutes } from '../app/modules/resources/resources.route';
 import { SubscriberRoutes } from '../app/modules/subscriber/subscriber.route';
 import { UserRoutes } from '../app/modules/user/user.route';
+import { ViewMeRoutes } from '../app/modules/viewMe/viewMe.route';
+import { ChatRoutes } from '../app/modules/chat/chat.route';
+import { MessageRoutes } from '../app/modules/message/message.route';
+import { PackageRoutes } from '../app/modules/package/package.routes';
 const router = express.Router();
 
 const apiRoutes = [
@@ -52,6 +56,10 @@ const apiRoutes = [
     path: '/subscriber',
     route: SubscriberRoutes,
   },
+  { path: '/viewMe', route: ViewMeRoutes},
+  { path: '/chat', route: ChatRoutes},
+  { path: '/message', route: MessageRoutes},
+  { path: '/package', route: PackageRoutes},
 ];
 
 apiRoutes.forEach(route => router.use(route.path, route.route));

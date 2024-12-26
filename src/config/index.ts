@@ -12,6 +12,11 @@ export default {
     jwt_secret: process.env.JWT_SECRET,
     jwt_expire_in: process.env.JWT_EXPIRE_IN,
   },
+  stripe: {
+    stripeSecretKey: process.env.STRIPE_API_SECRET,
+    stripeWebhookSecret: process.env.WEBHOOK_SECRET,
+    paymentSuccess: process.env.STRIPE_PAYMENT_SUCCESS_LINK
+  },
   email: {
     from: process.env.EMAIL_FROM,
     user: process.env.EMAIL_USER,
