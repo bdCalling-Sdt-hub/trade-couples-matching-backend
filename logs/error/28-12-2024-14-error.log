@@ -1,0 +1,2 @@
+Sat Dec 28 2024 14:3:39 [TRAD-COUPLES-MATCHING] error: 192.168.10.102 - GET /api/v1/user/profile 401 - 20.754 ms
+Sat Dec 28 2024 14:4:39 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - GET /api/v1/chat 401 - 4.448 ms
