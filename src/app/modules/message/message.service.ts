@@ -1,6 +1,8 @@
 import mongoose from 'mongoose';
 import { IMessage } from './message.interface';
 import { Message } from './message.model';
+import ApiError from '../../../errors/ApiError';
+import { StatusCodes } from 'http-status-codes';
 
 const sendMessageToDB = async (payload: any): Promise<IMessage> => {
 
@@ -23,7 +25,11 @@ const getMessageFromDB = async (id: any): Promise<IMessage[]> => {
     }
 
     const messages = await Message.find({ chatId: id })
-        .sort({ createdAt: -1 })
+        .sort({ createdAt: -1 });
+
+    if(!messages.length){
+        throw new ApiError(StatusCodes.NOT_FOUND, "No message found by this ID")
+    }
 
     return messages;
 };

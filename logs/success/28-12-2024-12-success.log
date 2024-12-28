@@ -1,0 +1,47 @@
+Sat Dec 28 2024 12:11:58 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:11:59 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:11:59 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:12:0 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:12:0 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/user/profile 204 - 0.316 ms
+Sat Dec 28 2024 12:12:0 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:12:0 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - GET /api/v1/user/profile 200 - 30.502 ms
+Sat Dec 28 2024 12:21:54 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:21:54 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Sat Dec 28 2024 12:21:54 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Sat Dec 28 2024 12:21:54 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Sat Dec 28 2024 12:21:54 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Sat Dec 28 2024 12:21:58 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:21:58 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:21:58 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/message/ 204 - 0.074 ms
+Sat Dec 28 2024 12:21:58 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/user/profile 204 - 0.071 ms
+Sat Dec 28 2024 12:21:58 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - GET /api/v1/user/profile 304 - 6.459 ms
+Sat Dec 28 2024 12:22:36 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/chat? 204 - 0.069 ms
+Sat Dec 28 2024 12:22:36 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - GET /api/v1/chat? 200 - 16.628 ms
+Sat Dec 28 2024 12:34:38 [TRAD-COUPLES-MATCHING] info: [32m🚀 Database connected successfully[39m
+Sat Dec 28 2024 12:34:38 [TRAD-COUPLES-MATCHING] info: [33m♻️  Application listening on port:5000[39m
+Sat Dec 28 2024 12:34:38 [TRAD-COUPLES-MATCHING] info: 🎀 Package Already created successfully
+Sat Dec 28 2024 12:34:39 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:34:39 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:34:39 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:34:39 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:34:46 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:34:46 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Sat Dec 28 2024 12:34:46 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Sat Dec 28 2024 12:34:47 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:34:47 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:34:49 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/chat? 204 - 0.626 ms
+Sat Dec 28 2024 12:34:49 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - OPTIONS /api/v1/user/profile 204 - 0.081 ms
+Sat Dec 28 2024 12:34:49 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:34:49 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:34:49 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - GET /api/v1/user/profile 304 - 14.892 ms
+Sat Dec 28 2024 12:34:49 [TRAD-COUPLES-MATCHING] info: 192.168.10.20 - GET /api/v1/chat? 304 - 22.886 ms
+Sat Dec 28 2024 12:40:34 [TRAD-COUPLES-MATCHING] info: [32m🚀 Database connected successfully[39m
+Sat Dec 28 2024 12:40:34 [TRAD-COUPLES-MATCHING] info: [33m♻️  Application listening on port:5000[39m
+Sat Dec 28 2024 12:40:34 [TRAD-COUPLES-MATCHING] info: 🎀 Package Already created successfully
+Sat Dec 28 2024 12:40:34 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:40:34 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:40:34 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:40:34 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:40:34 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:40:34 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Sat Dec 28 2024 12:40:34 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m

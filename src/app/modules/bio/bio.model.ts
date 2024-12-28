@@ -12,7 +12,7 @@ const bioSchema = new Schema<IBio>(
       type: String,
     },
     age: {
-      type: Number,
+      type: String,
       required: true,
     },
     dob: {
@@ -20,7 +20,7 @@ const bioSchema = new Schema<IBio>(
       required: true,
     },
     height: {
-      type: Number,
+      type: String,
       required: true,
     },
     bodyShape: {
@@ -72,11 +72,11 @@ const bioSchema = new Schema<IBio>(
       default: [],
     },
     searchingRightPartner: {
-      type: Boolean,
+      type: String,
       required: true,
     },
     wantToLive: {
-      type: Boolean,
+      type: String,
       required: true,
     },
     occupation: {

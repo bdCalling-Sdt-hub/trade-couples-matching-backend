@@ -60,6 +60,7 @@ const apiRoutes = [
   { path: '/chat', route: ChatRoutes},
   { path: '/message', route: MessageRoutes},
   { path: '/package', route: PackageRoutes},
+  { path: '/subscription', route: SubscriberRoutes},
 ];
 
 apiRoutes.forEach(route => router.use(route.path, route.route));

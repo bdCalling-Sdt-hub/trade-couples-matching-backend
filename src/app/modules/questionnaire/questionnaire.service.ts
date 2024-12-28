@@ -8,7 +8,7 @@ const answerQuestionnaireToDB = async (payload: IQuestions) => {
   const isExistQuestionnaireForThatUser = await Questionnaire.findById(
     payload.user
   );
-  if (!isExistQuestionnaireForThatUser) {
+  if (isExistQuestionnaireForThatUser) {
     throw new ApiError(
       StatusCodes.BAD_REQUEST,
       'You already answer your question'

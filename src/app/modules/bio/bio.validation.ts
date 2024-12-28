@@ -3,9 +3,9 @@ import z from 'zod';
 const createAboutZodSchema = z.object({
   body: z.object({
     aboutMe: z.string().optional(),
-    age: z.number({ required_error: 'Age is required' }),
+    age: z.string({ required_error: 'Age is required' }),
     dob: z.string({ required_error: 'Date of birth is required' }),
-    height: z.number({ required_error: 'Hight is required' }),
+    height: z.string({ required_error: 'Hight is required' }),
     bodyShape: z.string({ required_error: 'Body shape is required' }),
     educationOn: z.string({ required_error: 'Education is required' }),
     educationFrom: z.string({ required_error: 'Education date is required' }),
@@ -18,10 +18,10 @@ const createAboutZodSchema = z.object({
     children: z.string({ required_error: 'Children is required' }),
     howManyChildren: z.number().optional(),
     childrenAges: z.array(z.number()).optional(),
-    searchingRightPartner: z.boolean({
+    searchingRightPartner: z.string({
       required_error: 'Willing searching right person answer is required',
     }),
-    wantToLive: z.boolean({ required_error: 'Want to live is required' }),
+    wantToLive: z.string({ required_error: 'Want to live is required' }),
     occupation: z.string({ required_error: 'Occupation is required' }),
   }),
 });

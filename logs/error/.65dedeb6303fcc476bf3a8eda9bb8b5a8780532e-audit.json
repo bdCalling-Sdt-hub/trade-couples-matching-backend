@@ -1,0 +1,50 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "D:\\bdCalling\\Backend\\trad-couples-matching-backend\\logs\\error\\.65dedeb6303fcc476bf3a8eda9bb8b5a8780532e-audit.json",
+    "files": [
+        {
+            "date": 1735289799079,
+            "name": "D:\\bdCalling\\Backend\\trad-couples-matching-backend\\logs\\error\\27-12-2024-14-error.log",
+            "hash": "247c10f463de402df992430ddfed2049b305bf572b8f62c5e69d6d83a953ec16"
+        },
+        {
+            "date": 1735290088613,
+            "name": "D:\\bdCalling\\Backend\\trad-couples-matching-backend\\logs\\error\\27-12-2024-15-error.log",
+            "hash": "f75ea1c63803b622c40d372fb267147f07831bb14e9debe7e9ef0db18f23854b"
+        },
+        {
+            "date": 1735294266826,
+            "name": "D:\\bdCalling\\Backend\\trad-couples-matching-backend\\logs\\error\\27-12-2024-16-error.log",
+            "hash": "565fdbc40806282fafae73f6e2c92bcbaf191c01e4729c41b76f56f6ef070646"
+        },
+        {
+            "date": 1735302270639,
+            "name": "D:\\bdCalling\\Backend\\trad-couples-matching-backend\\logs\\error\\27-12-2024-18-error.log",
+            "hash": "56d34fb199a9b04ff0148f70daad6926758852b3acb97b76aaee67520eebd3ab"
+        },
+        {
+            "date": 1735356848210,
+            "name": "D:\\bdCalling\\Backend\\trad-couples-matching-backend\\logs\\error\\28-12-2024-09-error.log",
+            "hash": "1b0c3b2db82984f47d936870b134e924a54bda1161f4ef7e17148fe649eacc35"
+        },
+        {
+            "date": 1735366918876,
+            "name": "D:\\bdCalling\\Backend\\trad-couples-matching-backend\\logs\\error\\28-12-2024-12-error.log",
+            "hash": "efe3eb3077406038e1492794acbb55440294a8e5d6b5a8d74988a5dc784a5801"
+        },
+        {
+            "date": 1735369397158,
+            "name": "D:\\bdCalling\\Backend\\trad-couples-matching-backend\\logs\\error\\28-12-2024-13-error.log",
+            "hash": "053fe9dcf835804a7b2d3f7b2752569c2d6f38f905e6e52dae7f98c8b0fa6e31"
+        },
+        {
+            "date": 1735372960367,
+            "name": "D:\\bdCalling\\Backend\\trad-couples-matching-backend\\logs\\error\\28-12-2024-14-error.log",
+            "hash": "294bf28ba296943d7b232aa32fc28bc556d1caf452eb5bbca243ee578b899642"
+        }
+    ],
+    "hashType": "sha256"
+}

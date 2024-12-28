@@ -2,25 +2,24 @@ import { Types } from 'mongoose';
 
 export type IQuestions = {
   user: Types.ObjectId;
-  liveAlone: boolean;
-  liveWithParents: boolean;
-  christian: boolean;
-  believeJesusIsHead: boolean;
-  numberOfChildrenWanted: number;
-  manIsMainProvider: boolean;
-  menRoleModelsForBoys: boolean;
-  menSetStandardForDaughters: boolean;
+  liveAlone: string;
+  liveWithParents?: string;
+  christian: string;
+  believeJesusIsHead: string;
+  numberOfChildrenWanted?: string;
+  manIsMainProvider: string;
+  menRoleModelsForBoys: string;
+  menSetStandardForDaughters: string;
   interestsHobbies: string;
   preferredAgeRange: string;
   preferredEthnicity: string;
   preferredPhysique: string;
   preferredFitnessLevel: string;
-
-  haveAHome?: boolean;
-  stepUpAsFather?: boolean;
-  stepUpAsMother?: boolean;
+  haveAHome?: string;
+  stepUpAsFather?: string;
+  stepUpAsMother?: string;
   mothersAreNurturers?: boolean;
-  womenMakeHome?: boolean;
-  willingToWork?: boolean;
+  womenMakeHome?: string;
+  willingToWork?: string;
   preferHomesteadingOrUrban?: string;
 };

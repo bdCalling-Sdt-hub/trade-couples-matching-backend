@@ -27,6 +27,9 @@ const userSchema = new Schema<IUser, UserModal>(
     contact: {
       type: String,
     },
+    address: {
+      type: String,
+    },
     password: {
       type: String,
       required: true,

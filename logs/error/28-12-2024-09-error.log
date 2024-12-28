@@ -1,0 +1,2 @@
+Sat Dec 28 2024 9:34:8 [TRAD-COUPLES-MATCHING] error: 192.168.10.102 - POST /api/v1/chat/asdasd 500 - 30.085 ms
+Sat Dec 28 2024 9:44:42 [TRAD-COUPLES-MATCHING] error: 192.168.10.102 - GET /api/v1/message/676f71ca624ab600224f52ec 404 - 22.685 ms

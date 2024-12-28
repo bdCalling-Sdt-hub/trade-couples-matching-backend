@@ -22,5 +22,10 @@ router
     BioController.updateUserBio
   );
 
+router.get("/find-people",
+  auth(USER_ROLES.USER),
+  BioController.findPeople
+  
+)
+
 export const BioRoutes = router;
-``;

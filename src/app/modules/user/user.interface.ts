@@ -8,6 +8,7 @@ export type IUser = {
   email: string;
   password: string;
   image?: string;
+  address: string;
   gender: 'Male' | 'Female';
   status: 'ACTIVE' | 'DELETE';
   verified: boolean;

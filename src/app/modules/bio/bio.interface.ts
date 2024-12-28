@@ -4,9 +4,9 @@ import { IUser } from '../user/user.interface';
 export type IBio = {
   user: Types.ObjectId | IUser;
   aboutMe?: string;
-  age: number;
+  age: string;
   dob: string;
-  height: number;
+  height: string;
   bodyShape: string;
   educationOn: string;
   educationFrom: string;
@@ -19,7 +19,7 @@ export type IBio = {
   children: string;
   howManyChildren?: number;
   childrenAges?: number[];
-  searchingRightPartner: boolean;
-  wantToLive: boolean;
+  searchingRightPartner: string;
+  wantToLive: string;
   occupation: string;
 };
