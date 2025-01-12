@@ -8,6 +8,10 @@ import unlinkFile from '../../../shared/unlinkFile';
 import generateOTP from '../../../util/generateOTP';
 import { IUser } from './user.interface';
 import { User } from './user.model';
+import mongoose from 'mongoose';
+import { Bio } from '../bio/bio.model';
+import { Gallery } from '../gallery/gallery.model';
+import { Questionnaire } from '../questionnaire/questionnaire.model';
 
 const createUserToDB = async (payload: Partial<IUser>) => {
   //set role
@@ -119,6 +123,35 @@ const getAllUserFromDB = async () => {
   return isExistUser;
 };
 
+const userInfoFromDB = async (id: string) => {
+
+  if(!mongoose.Types.ObjectId.isValid(id)){
+    throw new ApiError(StatusCodes.BAD_REQUEST, "Invalid User ID")
+  }
+
+  const [user, bio, gallery, questionary] = await Promise.all([
+    User.findById(id).select("name image address").lean(),
+    Bio.findOne({user: id}),
+    Gallery.find({user: id}),
+    Questionnaire.find({user: id})
+  ])
+
+  
+  if (!user) {
+    throw new ApiError(StatusCodes.NOT_FOUND, "User doesn't exist!");
+  }
+
+  const data = {
+    ...user,
+    gallery,
+    bio,
+    questionary
+  }
+
+  return data;
+};
+
+
 const getSingleUserFromDB = async (id: string) => {
   const isExistUser = await User.findById(id);
   if (!isExistUser) {
@@ -127,6 +160,8 @@ const getSingleUserFromDB = async (id: string) => {
 
   return isExistUser;
 };
+
+
 
 export const UserService = {
   createUserToDB,
@@ -137,4 +172,6 @@ export const UserService = {
   userStatusActionToDB,
   getAllUserFromDB,
   getSingleUserFromDB,
+  userInfoFromDB
+  
 };

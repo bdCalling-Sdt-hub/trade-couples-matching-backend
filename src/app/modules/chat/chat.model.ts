@@ -9,6 +9,9 @@ const chatSchema = new Schema<IChat, ChatModel>(
                 ref: 'User'
             }
         ]
+    }, 
+    {
+        timestamps:true
     }
 )
 

@@ -29,9 +29,9 @@ const createAboutZodSchema = z.object({
 const updateAboutZodSchema = z.object({
   body: z.object({
     aboutMe: z.string().optional(),
-    age: z.number().optional(),
+    age: z.string().optional(),
     dob: z.string().optional(),
-    hight: z.number().optional(),
+    hight: z.string().optional(),
     bodyShape: z.string().optional(),
     educationOn: z.string().optional(),
     educationFrom: z.string().optional(),

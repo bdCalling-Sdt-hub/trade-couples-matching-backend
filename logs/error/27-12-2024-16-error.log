@@ -1,3 +1,0 @@
-Fri Dec 27 2024 16:53:45 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/bio/create-bio 400 - 30.840 ms
-Fri Dec 27 2024 16:54:3 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/bio/create-bio 400 - 8.503 ms
-Fri Dec 27 2024 16:57:57 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/bio/create-bio 400 - 43.791 ms

@@ -96,17 +96,67 @@ const findPeopleFromDB = async (user: JwtPayload, query: Record<string, any>): P
       path: "user",
       select: "image name address",
       match: {
+        _id: { $ne: user.id },
+        gender: { $ne: user.role }
+      }
+    })
+    .lean();
+
+  const filteredPeople = peoples.filter((people) => people.user !== null);
+
+
+  const count = await Bio.countDocuments(whereConditions);
+
+  return {
+    peoples: filteredPeople,
+    meta: {
+      total: count,
+      page: pages
+    }
+  };
+
+};
+
+
+const discoverPeopleFromDB = async (user: JwtPayload, query: Record<string, any>): Promise<{ peoples: IBio[], meta: { page: number, total: number } }> => {
+
+  const { page, limit } = query;
+
+  const pages = parseInt(page as string) || 1;
+  const size = parseInt(limit as string) || 10;
+  const skip = (pages - 1) * size;
+
+  const bio = await Bio.findOne({ user: user.id });
+
+  const conditions = [
+    bio?.country ? { country: bio.country } : null,
+    bio?.region ? { region: bio.region } : null,
+    bio?.eyeColor ? { eyeColor: bio.eyeColor } : null,
+    bio?.maritalStatus ? { maritalStatus: bio.maritalStatus } : null,
+    bio?.occupation ? { occupation: bio.occupation } : null,
+  ].filter(condition => condition !== null);
+
+  const queryConditions = conditions.length > 0 ? { $or: conditions } : {};
+
+  const peoples = await Bio.find(queryConditions)
+    .skip(skip)
+    .limit(size)
+    .populate({
+      path: "user",
+      select: "image name address",
+      match: {
+        _id: { $ne: user.id },
         role: { $ne: user.role }
       }
     })
     .lean();
 
-  const count = await Bio.countDocuments(whereConditions);
+  const filteredPeople = peoples.filter((people) => people.user !== null);
 
   return {
-    peoples,
+    peoples: filteredPeople,
     meta: {
-      total: count,
+      total: filteredPeople?.length,
       page: pages
     }
   };
@@ -117,5 +167,6 @@ export const BioService = {
   createUserBioToDB,
   getUserBioToDB,
   updateUserBioToDB,
-  findPeopleFromDB
+  findPeopleFromDB,
+  discoverPeopleFromDB
 };

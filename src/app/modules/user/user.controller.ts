@@ -115,6 +115,17 @@ const getSingleUser = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const userInfo = catchAsync(async (req: Request, res: Response) => {
+  const result = await UserService.userInfoFromDB(req.params.id);
+
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'Single user data retrieved successfully',
+    data: result,
+  });
+});
+
 export const UserController = {
   createUser,
   getUserProfile,
@@ -124,4 +135,5 @@ export const UserController = {
   userStatusAction,
   getSingleUser,
   getAllUser,
+  userInfo
 };

@@ -21,7 +21,7 @@ const questionnaireSchema = new Schema<IQuestions>(
     haveAHome: { type: String },
     stepUpAsFather: { type: String },
     stepUpAsMother: { type: String },
-    mothersAreNurturers: { type: Boolean },
+    mothersAreNurturers: { type: String },
     womenMakeHome: { type: String },
     willingToWork: { type: String },
     preferHomesteadingOrUrban: { type: String },

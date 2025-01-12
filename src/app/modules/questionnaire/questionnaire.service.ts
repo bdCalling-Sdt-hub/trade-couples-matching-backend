@@ -36,7 +36,9 @@ const answerQuestionnaireToDB = async (payload: IQuestions) => {
 const getAnswerQuestionnaireFromDB = async (id: string) => {
   const isExistQuestionnaireForThatUser = await Questionnaire.findOne({
     user: id,
-  });
+  }).select("_id -user -createdAt -updatedAt -__v");
+
+
   if (!isExistQuestionnaireForThatUser) {
     throw new ApiError(
       StatusCodes.BAD_REQUEST,

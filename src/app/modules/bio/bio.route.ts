@@ -28,4 +28,10 @@ router.get("/find-people",
   
 )
 
+router.get("/discover",
+  auth(USER_ROLES.USER),
+  BioController.discoverPeople
+  
+)
+
 export const BioRoutes = router;

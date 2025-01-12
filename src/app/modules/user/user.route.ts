@@ -54,6 +54,14 @@ router.get(
   UserController.getAllUser
 );
 
+//users getting api
+router.get(
+  '/user-details/:id',
+  auth(USER_ROLES.USER),
+  UserController.userInfo
+);
+
+
 router
   .route('/:id')
   .get(

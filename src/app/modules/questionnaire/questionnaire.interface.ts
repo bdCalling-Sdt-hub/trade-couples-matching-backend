@@ -18,7 +18,7 @@ export type IQuestions = {
   haveAHome?: string;
   stepUpAsFather?: string;
   stepUpAsMother?: string;
-  mothersAreNurturers?: boolean;
+  mothersAreNurturers?: string;
   womenMakeHome?: string;
   willingToWork?: string;
   preferHomesteadingOrUrban?: string;

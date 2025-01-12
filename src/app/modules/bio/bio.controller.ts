@@ -64,9 +64,23 @@ const findPeople = catchAsync(
   }
 );
 
+const discoverPeople = catchAsync(
+  async (req: Request, res: Response, next: NextFunction) => {
+    const result = await BioService.discoverPeopleFromDB(req.user, req.query);
+
+    sendResponse(res, {
+      success: true,
+      statusCode: StatusCodes.OK,
+      message: 'People Retrieved successfully.',
+      data: result,
+    });
+  }
+);
+
 export const BioController = {
   createUserBio,
   getUserBio,
   updateUserBio,
-  findPeople
+  findPeople,
+  discoverPeople
 };

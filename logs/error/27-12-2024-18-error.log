@@ -1,5 +1,0 @@
-Fri Dec 27 2024 18:41:6 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/questionnaire/answer 400 - 23.011 ms
-Fri Dec 27 2024 18:45:34 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/questionnaire/answer 400 - 17.262 ms
-Fri Dec 27 2024 18:47:44 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/questionnaire/answer 400 - 6.822 ms
-Fri Dec 27 2024 18:50:21 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/questionnaire/answer 400 - 24.165 ms
-Fri Dec 27 2024 18:51:56 [TRAD-COUPLES-MATCHING] error: 192.168.10.20 - POST /api/v1/questionnaire/answer 400 - 42.252 ms

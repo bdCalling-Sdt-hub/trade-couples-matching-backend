@@ -6,14 +6,7 @@ import sendResponse from '../../../shared/sendResponse';
 import { GalleryService } from './gallery.service';
 
 const uploadPicture = catchAsync(async (req: Request, res: Response) => {
-  const user = req.user.id;
-  const image = getSingleFilePath(req.files, 'image');
-  const data = {
-    user,
-    image,
-  };
-
-  const result = await GalleryService.uploadPictureToDB(data);
+  const result = await GalleryService.uploadPictureToDB(req.body);
 
   sendResponse(res, {
     success: true,

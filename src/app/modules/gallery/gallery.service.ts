@@ -6,6 +6,7 @@ import { IGallery } from './gallery.interface';
 import { Gallery } from './gallery.model';
 
 const uploadPictureToDB = async (payload: IGallery) => {
+
   const total = await Gallery.countDocuments({ user: payload.user });
   if (total >= 6) {
     //unlink file
@@ -25,7 +26,7 @@ const uploadPictureToDB = async (payload: IGallery) => {
 };
 
 const getAllGalleryImagesFromDB = async (id: string) => {
-  const isExistPictures = await Gallery.find({ user: id });
+  const isExistPictures = await Gallery.find({ user: id }).select("image").lean();
   if (!isExistPictures) {
     throw new ApiError(
       StatusCodes.BAD_REQUEST,
