@@ -25,6 +25,34 @@ const subscriptionDetailsFromDB = async (user: JwtPayload): Promise<{ subscripti
     return { subscription };
 };
 
+
+const getSubscriptionListFromDB = async (query: Record<string, any>): Promise<{}> => {
+
+    const { page, limit } = query;
+    const pages = parseInt(page as string) || 1;
+    const size = parseInt(limit as string) || 10;
+    const skip = (pages - 1) * size;
+
+    const subscriptions = await Subscription.find()
+        .populate("reportTo", "name email")
+        .lean()
+        .skip(skip)
+        .limit(size)
+
+    const count = await Subscription.countDocuments()
+
+    const data = {
+        subscriptions,
+        meta: {
+            page: pages,
+            total: count
+        }
+    } as { subscriptions: [], meta: { page: 0, total: 0 } }
+
+    return data;
+}
+
 export const SubscriptionService = {
-    subscriptionDetailsFromDB
+    subscriptionDetailsFromDB,
+    getSubscriptionListFromDB
 }

@@ -19,9 +19,43 @@ const createSubscriberToDB = async (
   return createSubscriber;
 };
 
-const getSubscriberListFromDB = async (): Promise<ISubscriber[]> => {
-  const result = await Subscriber.find();
-  return result;
+const getSubscriberListFromDB = async (query: Record<string, any>): Promise<{ subscriber: [], meta: { page: 0, total: 0 } }> => {
+  const { page, limit, search } = query;
+  const pages = parseInt(page as string) || 1;
+  const size = parseInt(limit as string) || 10;
+  const skip = (pages - 1) * size;
+
+
+  const anyConditions = [];
+
+  if (search) {
+    anyConditions.push({
+      $or: ["name", "email", "country"].map((field) => ({
+        [field]: {
+          $regex: search,
+          $options: "i"
+        }
+      }))
+    });
+  }
+
+  const whereConditions = anyConditions.length > 0 ? { $and: anyConditions } : {};
+
+  const result = await Subscriber.find(whereConditions)
+    .lean()
+    .skip(skip)
+    .limit(size);
+  const count = await Subscriber.countDocuments(whereConditions)
+
+  const data = {
+    subscriber: result,
+    meta: {
+      page: pages,
+      total: count
+    }
+  } as { subscriber: [], meta: { page: 0, total: 0 } }
+
+  return data;
 };
 
 const subscriberRepliedMessageToDB = async (id: string, payload: string) => {

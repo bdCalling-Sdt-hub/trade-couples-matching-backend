@@ -16,7 +16,7 @@ const createFaq = catchAsync(async (req: Request, res: Response) => {
   });
 });
 const getAllFaq = catchAsync(async (req: Request, res: Response) => {
-  const result = await FaqService.getAllFaqToDB();
+  const result = await FaqService.getAllFaqToDB(req.query);
 
   sendResponse(res, {
     statusCode: StatusCodes.OK,

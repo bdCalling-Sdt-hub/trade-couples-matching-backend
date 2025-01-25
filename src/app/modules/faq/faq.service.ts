@@ -12,11 +12,28 @@ const createFaqToDB = async (payload: IFaq): Promise<IFaq> => {
 
   return createFaq
 }
-const getAllFaqToDB = async (): Promise<IFaq[]> => {
-  const createFaq = await Faq.find()
+const getAllFaqToDB = async (query: Record<string, any>): Promise<{ faqs: [], meta: { page: 0, total: 0 } }> => {
+  const { page, limit } = query;
+  const pages = parseInt(page as string) || 1;
+  const size = parseInt(limit as string) || 10;
+  const skip = (pages - 1) * size;
 
-  return createFaq
-}
+  const result = await Faq.find()
+    .lean()
+    .skip(skip)
+    .limit(size);
+  const count = await Faq.countDocuments()
+
+  const data = {
+    faqs: result,
+    meta: {
+      page: pages,
+      total: count
+    }
+  } as { faqs: [], meta: { page: 0, total: 0 } }
+
+  return data;
+};
 
 const updateFaqToDB = async (
   id: string,

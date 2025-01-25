@@ -10,7 +10,7 @@ export type IUser = {
   image?: string;
   address: string;
   gender: 'Male' | 'Female';
-  status: 'ACTIVE' | 'DELETE';
+  status: 'ACTIVE' | 'DELETE' | "BLOCK";
   verified: boolean;
   isAnswered: boolean;
   isBio: boolean;

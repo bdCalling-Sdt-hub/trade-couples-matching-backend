@@ -9,4 +9,9 @@ router.get("/",
     SubscriptionController.subscriptionDetails
 );
 
+router.get("/subscription", 
+    auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), 
+    SubscriptionController.getSubscriptionList
+);
+
 export const SubscriptionRoutes = router;

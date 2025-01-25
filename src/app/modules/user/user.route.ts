@@ -50,7 +50,7 @@ router.get(
 //users getting api
 router.get(
   '/all-user',
-  auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN, USER_ROLES.USER),
+  auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
   UserController.getAllUser
 );
 

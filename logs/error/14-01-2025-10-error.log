@@ -1,0 +1,5 @@
+Tue Jan 14 2025 10:1:31 [TRAD-COUPLES-MATCHING] error: 115.127.157.41 - GET /api/v1/user/profile 500 - 6.782 ms
+Tue Jan 14 2025 10:1:56 [TRAD-COUPLES-MATCHING] error: 115.127.157.41 - GET /api/v1/user/profile 500 - 2.219 ms
+Tue Jan 14 2025 10:2:32 [TRAD-COUPLES-MATCHING] error: 115.127.157.41 - GET /api/v1/user/all-user?page&search&limit 401 - 1.931 ms
+Tue Jan 14 2025 10:44:35 [TRAD-COUPLES-MATCHING] error: 10.0.80.75 - GET /api/v1/user/profile 500 - 9.710 ms
+Tue Jan 14 2025 10:45:18 [TRAD-COUPLES-MATCHING] error: 10.0.80.75 - GET /api/v1/user/profile 500 - 7.216 ms

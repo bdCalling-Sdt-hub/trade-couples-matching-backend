@@ -1,0 +1,5 @@
+Mon Jan 13 2025 16:43:26 [TRAD-COUPLES-MATCHING] error: 10.0.80.75 - GET /api/v1/report 404 - 24.016 ms
+Mon Jan 13 2025 16:43:31 [TRAD-COUPLES-MATCHING] error: 10.0.80.75 - POST /api/v1/report 400 - 55.299 ms
+Mon Jan 13 2025 16:43:39 [TRAD-COUPLES-MATCHING] error: 10.0.80.75 - POST /api/v1/report 400 - 3.685 ms
+Mon Jan 13 2025 16:44:21 [TRAD-COUPLES-MATCHING] error: 10.0.80.75 - POST /api/v1/report 400 - 16.713 ms
+Mon Jan 13 2025 16:49:19 [TRAD-COUPLES-MATCHING] error: 10.0.80.75 - GET /api/v1/report 403 - 15.729 ms

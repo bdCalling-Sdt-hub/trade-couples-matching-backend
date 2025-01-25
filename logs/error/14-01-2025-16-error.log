@@ -1,0 +1,7 @@
+Tue Jan 14 2025 16:2:49 [TRAD-COUPLES-MATCHING] error: 115.127.157.41 - POST /api/v1/bio/create-bio 401 - 12.815 ms
+Tue Jan 14 2025 16:3:54 [TRAD-COUPLES-MATCHING] error: 115.127.157.41 - GET /api/v1/user/profile 401 - 2.479 ms
+Tue Jan 14 2025 16:3:54 [TRAD-COUPLES-MATCHING] error: 115.127.157.41 - GET /api/v1/bio 401 - 2.876 ms
+Tue Jan 14 2025 16:3:55 [TRAD-COUPLES-MATCHING] error: 115.127.157.41 - GET /api/v1/bio/discover 401 - 1.383 ms
+Tue Jan 14 2025 16:4:2 [TRAD-COUPLES-MATCHING] error: 115.127.157.41 - GET /undefined 404 - 0.415 ms
+Tue Jan 14 2025 16:4:7 [TRAD-COUPLES-MATCHING] error: 115.127.157.41 - GET /api/v1/user/profile 401 - 1.143 ms
+Tue Jan 14 2025 16:7:11 [TRAD-COUPLES-MATCHING] error: 115.127.157.41 - POST /api/v1/bio/create-bio 401 - 1.191 ms

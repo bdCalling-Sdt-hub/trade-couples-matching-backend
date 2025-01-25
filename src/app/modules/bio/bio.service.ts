@@ -4,8 +4,10 @@ import { User } from '../user/user.model';
 import { IBio } from './bio.interface';
 import { Bio } from './bio.model';
 import { JwtPayload } from 'jsonwebtoken';
+import { Favorite } from '../favorite/favorite.model';
 
 const createUserBioToDB = async (payload: IBio) => {
+  
   const isExistBioForThatUser = await Bio.findById(payload.user);
   if (isExistBioForThatUser) {
     throw new ApiError(StatusCodes.BAD_REQUEST, 'You already add your bio');
@@ -23,7 +25,10 @@ const createUserBioToDB = async (payload: IBio) => {
 };
 
 const getUserBioToDB = async (id: string) => {
+
+  console.log(id);
   const isExistBio = await Bio.findOne({ user: id }).select('-user');
+  console.log(isExistBio);
   if (!isExistBio) {
     throw new ApiError(
       StatusCodes.BAD_REQUEST,
@@ -104,11 +109,20 @@ const findPeopleFromDB = async (user: JwtPayload, query: Record<string, any>): P
 
   const filteredPeople = peoples.filter((people) => people.user !== null);
 
+  const users: any[] = await Promise.all(filteredPeople.map(async (item: any) => {
+    const isBookedMark = await Favorite.findOne({ userId: user?.id, favoriteUserId: item?.user?._id });
+
+    return {
+      ...item,
+      isFavorite: !!isBookedMark
+    }
+  }))
+
 
   const count = await Bio.countDocuments(whereConditions);
 
   return {
-    peoples: filteredPeople,
+    peoples: users,
     meta: {
       total: count,
       page: pages
@@ -126,35 +140,55 @@ const discoverPeopleFromDB = async (user: JwtPayload, query: Record<string, any>
   const size = parseInt(limit as string) || 10;
   const skip = (pages - 1) * size;
 
-  const bio = await Bio.findOne({ user: user.id });
+  const bio: any = await Bio.findOne({ user: user.id });
 
-  const conditions = [
-    bio?.country ? { country: bio.country } : null,
-    bio?.region ? { region: bio.region } : null,
-    bio?.eyeColor ? { eyeColor: bio.eyeColor } : null,
-    bio?.maritalStatus ? { maritalStatus: bio.maritalStatus } : null,
-    bio?.occupation ? { occupation: bio.occupation } : null,
-  ].filter(condition => condition !== null);
+  if (!bio) {
+    throw new ApiError(StatusCodes.BAD_REQUEST, "Invalid User")
+  }
 
-  const queryConditions = conditions.length > 0 ? { $or: conditions } : {};
+  const anyConditions = Object.entries({
+    country: bio.country,
+    region: bio.region,
+    eyeColor: bio.eyeColor,
+    maritalStatus: bio.maritalStatus,
+    occupation: bio.occupation,
+  }).reduce((acc, [field, value]) => {
+    if (value != null) { // Include only valid fields
+      acc.push({ [field]: value });
+    }
+    return acc;
+  }, [] as { [key: string]: any }[]);
 
-  const peoples = await Bio.find(queryConditions)
+  // Use $or instead of $and
+  const whereConditions = anyConditions.length > 0 ? { $or: anyConditions } : {};
+
+  const peoples = await Bio.find(whereConditions)
     .skip(skip)
     .limit(size)
     .populate({
       path: "user",
       select: "image name address",
       match: {
-        _id: { $ne: user.id },
-        role: { $ne: user.role }
+        _id: { $ne: user.id }
       }
     })
+    .select("user -_id")
     .lean();
 
   const filteredPeople = peoples.filter((people) => people.user !== null);
 
+  const users: any[] = await Promise.all(filteredPeople.map(async (item: any) => {
+    const isBookedMark = await Favorite.findOne({ userId: user?.id, favoriteUserId: item?.user?._id });
+    const bio = await Bio.findOne({user: item?.user?._id}).select("age country").lean();
+    return {
+      ...item,
+      ...bio,
+      isFavorite: !!isBookedMark
+    }
+  }))
+
   return {
-    peoples: filteredPeople,
+    peoples: users,
     meta: {
       total: filteredPeople?.length,
       page: pages

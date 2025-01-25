@@ -13,6 +13,9 @@ import { ViewMeRoutes } from '../app/modules/viewMe/viewMe.route';
 import { ChatRoutes } from '../app/modules/chat/chat.route';
 import { MessageRoutes } from '../app/modules/message/message.route';
 import { PackageRoutes } from '../app/modules/package/package.routes';
+import { ReportRoutes } from '../app/modules/report/report.routes';
+import { AdminRoutes } from '../app/modules/admin/admin.routes';
+import { SubscriptionRoutes } from '../app/modules/subscription/subscription.routes';
 const router = express.Router();
 
 const apiRoutes = [
@@ -61,6 +64,9 @@ const apiRoutes = [
   { path: '/message', route: MessageRoutes},
   { path: '/package', route: PackageRoutes},
   { path: '/subscription', route: SubscriberRoutes},
+  { path: '/report', route: ReportRoutes},
+  { path: '/admin', route: AdminRoutes},
+  { path: '/subscription', route: SubscriptionRoutes},
 ];
 
 apiRoutes.forEach(route => router.use(route.path, route.route));

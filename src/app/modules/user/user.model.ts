@@ -43,7 +43,7 @@ const userSchema = new Schema<IUser, UserModal>(
     gender: { type: String, enum: gender },
     status: {
       type: String,
-      enum: ['ACTIVE', 'DELETE'],
+      enum: ['ACTIVE', 'DELETE', "BLOCK"],
       default: 'ACTIVE',
     },
     verified: {

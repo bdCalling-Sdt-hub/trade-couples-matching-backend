@@ -1,0 +1,6 @@
+Tue Jan 14 2025 12:22:13 [TRAD-COUPLES-MATCHING] error: 10.0.80.75 - GET /api/v1/report/:id 404 - 2.805 ms
+Tue Jan 14 2025 12:22:20 [TRAD-COUPLES-MATCHING] error: 10.0.80.75 - GET /api/v1/report/d 404 - 0.840 ms
+Tue Jan 14 2025 12:22:30 [TRAD-COUPLES-MATCHING] error: 10.0.80.75 - PATCH /api/v1/report/d 401 - 5.553 ms
+Tue Jan 14 2025 12:22:34 [TRAD-COUPLES-MATCHING] error: 10.0.80.75 - PATCH /api/v1/report/d 400 - 5.450 ms
+Tue Jan 14 2025 12:34:36 [TRAD-COUPLES-MATCHING] error: 115.127.157.41 - PATCH /api/v1/report/6784f84c7fb7f6ae83d1269c 400 - 3.329 ms
+Tue Jan 14 2025 12:42:10 [TRAD-COUPLES-MATCHING] error: 115.127.157.41 - GET /api/v1/subscription/subscription 404 - 0.783 ms

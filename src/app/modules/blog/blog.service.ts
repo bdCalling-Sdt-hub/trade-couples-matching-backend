@@ -12,9 +12,27 @@ const createBlogToDB = async (payload: IBlog) => {
   return result;
 };
 
-const getAllBlogsFromDB = async () => {
-  const result = await Blog.find();
-  return result;
+const getAllBlogsFromDB = async (query: Record<string, any>): Promise<{ blogs: [], meta: { page: 0, total: 0 } }> => {
+  const { page, limit } = query;
+  const pages = parseInt(page as string) || 1;
+  const size = parseInt(limit as string) || 10;
+  const skip = (pages - 1) * size;
+
+  const result = await Blog.find()
+    .lean()
+    .skip(skip)
+    .limit(size);
+  const count = await Blog.countDocuments()
+
+  const data = {
+    blogs: result,
+    meta: {
+      page: pages,
+      total: count
+    }
+  } as { blogs: [], meta: { page: 0, total: 0 } }
+
+  return data;
 };
 
 const getSingleBlogFromDB = async (id: string) => {

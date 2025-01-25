@@ -16,6 +16,20 @@ const subscriptionDetails = catchAsync( async(req: Request, res: Response)=>{
     })
 });
 
+const getSubscriptionList = catchAsync( async(req: Request, res: Response)=>{
+    const result = await SubscriptionService.getSubscriptionListFromDB(req.query);
+
+    console.log(result);
+
+    sendResponse(res, {
+        statusCode: StatusCodes.OK,
+        success: true,
+        message: "Subscriptions data Retrieved Successfully",
+        data: result
+    })
+});
+
 export const SubscriptionController = {
-    subscriptionDetails
+    subscriptionDetails,
+    getSubscriptionList
 }

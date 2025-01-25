@@ -93,7 +93,7 @@ const userStatusAction = catchAsync(async (req: Request, res: Response) => {
 
 //users
 const getAllUser = catchAsync(async (req: Request, res: Response) => {
-  const result = await UserService.getAllUserFromDB();
+  const result = await UserService.getAllUserFromDB(req.query);
 
   sendResponse(res, {
     success: true,
@@ -116,7 +116,7 @@ const getSingleUser = catchAsync(async (req: Request, res: Response) => {
 });
 
 const userInfo = catchAsync(async (req: Request, res: Response) => {
-  const result = await UserService.userInfoFromDB(req.params.id);
+  const result = await UserService.userInfoFromDB(req.user, req.params.id);
 
   sendResponse(res, {
     success: true,

@@ -1,5 +1,5 @@
 import { StatusCodes } from 'http-status-codes';
-import { JwtPayload } from 'jsonwebtoken';
+import { JwtPayload, Secret } from 'jsonwebtoken';
 import { USER_ROLES } from '../../../enums/user';
 import ApiError from '../../../errors/ApiError';
 import { emailHelper } from '../../../helpers/emailHelper';
@@ -12,6 +12,9 @@ import mongoose from 'mongoose';
 import { Bio } from '../bio/bio.model';
 import { Gallery } from '../gallery/gallery.model';
 import { Questionnaire } from '../questionnaire/questionnaire.model';
+import { ViewMe } from '../viewMe/viewMe.model';
+import { jwtHelper } from '../../../helpers/jwtHelper';
+import config from '../../../config';
 
 const createUserToDB = async (payload: Partial<IUser>) => {
   //set role
@@ -36,6 +39,8 @@ const createUserToDB = async (payload: Partial<IUser>) => {
     oneTimeCode: otp,
     expireAt: new Date(Date.now() + 3 * 60000),
   };
+
+
   await User.findOneAndUpdate(
     { _id: createUser._id },
     { $set: { authentication } }
@@ -111,38 +116,80 @@ const userStatusActionToDB = async (id: string) => {
 };
 
 //user
-const getAllUserFromDB = async () => {
-  const isExistUser = await User.find({
+const getAllUserFromDB = async (query: Record<string, any>): Promise<{ users: [], meta: { page: 0, total: 0 } }> => {
+
+  const { page, limit, search } = query;
+  const pages = parseInt(page as string) || 1;
+  const size = parseInt(limit as string) || 10;
+  const skip = (pages - 1) * size;
+
+  const anyConditions = [];
+
+  anyConditions.push({
     role: { $eq: USER_ROLES.USER },
     status: { $ne: 'DELETE' },
   });
+
+  if (search) {
+    anyConditions.push({
+      $or: ["name", "gender", "email", "contact"].map((field) => ({
+        [field]: {
+          $regex: search,
+          $options: "i"
+        }
+      }))
+    });
+  }
+
+  const whereConditions = anyConditions.length > 0 ? { $and: anyConditions } : {};
+
+  const isExistUser = await User.find(whereConditions)
+    .skip(skip)
+    .limit(size);
+
+
   if (!isExistUser) {
     throw new ApiError(StatusCodes.NOT_FOUND, "User doesn't exist!");
   }
+  const count = await User.countDocuments(whereConditions)
 
-  return isExistUser;
+  const data = {
+    users: isExistUser,
+    meta: {
+      page: pages,
+      total: count
+    }
+  } as { users: [], meta: { page: 0, total: 0 } }
+
+
+  return data;
 };
 
-const userInfoFromDB = async (id: string) => {
+const userInfoFromDB = async (user: JwtPayload, id: string) => {
 
-  if(!mongoose.Types.ObjectId.isValid(id)){
+  if (!mongoose.Types.ObjectId.isValid(id)) {
     throw new ApiError(StatusCodes.BAD_REQUEST, "Invalid User ID")
   }
 
-  const [user, bio, gallery, questionary] = await Promise.all([
-    User.findById(id).select("name image address").lean(),
-    Bio.findOne({user: id}),
-    Gallery.find({user: id}),
-    Questionnaire.find({user: id})
+  const [userInfo, bio, gallery, questionary] = await Promise.all([
+    User.findById(id).select("name image address gender").lean(),
+    Bio.findOne({ user: id }).select(""),
+    Gallery.find({ user: id }).select("image -_id"),
+    Questionnaire.findOne({ user: id }).select("-user -_id -createdAt -updatedAt -__v")
   ])
 
-  
-  if (!user) {
+
+  if (!userInfo) {
     throw new ApiError(StatusCodes.NOT_FOUND, "User doesn't exist!");
+  } else {
+    const isExist = await ViewMe.findOne({ user: user.id, view: userInfo });
+    if (!isExist) {
+      await ViewMe.create({ user: user.id, view: userInfo })
+    }
   }
 
   const data = {
-    ...user,
+    ...userInfo,
     gallery,
     bio,
     questionary
@@ -173,5 +220,5 @@ export const UserService = {
   getAllUserFromDB,
   getSingleUserFromDB,
   userInfoFromDB
-  
+
 };

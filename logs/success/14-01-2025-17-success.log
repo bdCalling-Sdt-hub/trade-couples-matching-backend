@@ -1,0 +1,93 @@
+Tue Jan 14 2025 17:14:11 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 17:14:11 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:14:11 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:14:12 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 17:14:12 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 17:14:12 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.194 ms
+Tue Jan 14 2025 17:14:12 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 200 - 22.886 ms
+Tue Jan 14 2025 17:16:13 [TRAD-COUPLES-MATCHING] info: 10.0.80.75 - OPTIONS /api/v1/user/profile 204 - 0.180 ms
+Tue Jan 14 2025 17:16:13 [TRAD-COUPLES-MATCHING] info: 10.0.80.75 - GET /api/v1/user/profile 200 - 8.235 ms
+Tue Jan 14 2025 17:16:14 [TRAD-COUPLES-MATCHING] info: 10.0.80.75 - GET //image/hd-wallpaper-shin-chan-anime-crayonshinchan-shin-chan-shinchan-1736844313846.jpg 200 - 8.542 ms
+Tue Jan 14 2025 17:36:56 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 17:36:56 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:36:56 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:36:57 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 17:36:57 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 17:36:57 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.151 ms
+Tue Jan 14 2025 17:36:57 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 304 - 6.992 ms
+Tue Jan 14 2025 17:38:14 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/create-bio 204 - 0.183 ms
+Tue Jan 14 2025 17:38:15 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/bio/create-bio 200 - 19.190 ms
+Tue Jan 14 2025 17:38:34 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/create-bio 204 - 0.357 ms
+Tue Jan 14 2025 17:38:34 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/bio/create-bio 200 - 11.227 ms
+Tue Jan 14 2025 17:38:49 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:38:49 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:38:49 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 17:38:50 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 17:38:50 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 17:38:50 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.134 ms
+Tue Jan 14 2025 17:38:50 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 200 - 6.718 ms
+Tue Jan 14 2025 17:40:7 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/create-bio 204 - 0.178 ms
+Tue Jan 14 2025 17:40:7 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/bio/create-bio 200 - 10.106 ms
+Tue Jan 14 2025 17:40:15 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/create-bio 204 - 0.249 ms
+Tue Jan 14 2025 17:40:15 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/bio/create-bio 200 - 13.045 ms
+Tue Jan 14 2025 17:40:39 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/create-bio 204 - 0.157 ms
+Tue Jan 14 2025 17:40:39 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/bio/create-bio 200 - 8.892 ms
+Tue Jan 14 2025 17:41:22 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/create-bio 204 - 0.056 ms
+Tue Jan 14 2025 17:41:22 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/bio/create-bio 200 - 4.741 ms
+Tue Jan 14 2025 17:41:48 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/create-bio 204 - 13.406 ms
+Tue Jan 14 2025 17:41:48 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/bio/create-bio 200 - 11.128 ms
+Tue Jan 14 2025 17:42:52 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/create-bio 204 - 0.140 ms
+Tue Jan 14 2025 17:42:52 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/bio/create-bio 200 - 19.740 ms
+Tue Jan 14 2025 17:42:56 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/bio/create-bio 200 - 9.039 ms
+Tue Jan 14 2025 17:43:5 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:43:5 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:43:5 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 17:43:6 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 17:43:6 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 17:43:6 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.060 ms
+Tue Jan 14 2025 17:43:6 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 200 - 2.502 ms
+Tue Jan 14 2025 17:43:53 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/create-bio 204 - 0.217 ms
+Tue Jan 14 2025 17:43:53 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/bio/create-bio 200 - 17.810 ms
+Tue Jan 14 2025 17:45:11 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:45:11 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:45:11 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 17:45:12 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 17:45:12 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 17:45:12 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.048 ms
+Tue Jan 14 2025 17:45:12 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 200 - 2.390 ms
+Tue Jan 14 2025 17:45:47 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/sign-up 204 - 0.046 ms
+Tue Jan 14 2025 17:45:47 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/user/sign-up 200 - 251.656 ms
+Tue Jan 14 2025 17:45:50 [TRAD-COUPLES-MATCHING] info: Mail send successfully
+Tue Jan 14 2025 17:45:53 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:45:53 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 17:50:16 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m

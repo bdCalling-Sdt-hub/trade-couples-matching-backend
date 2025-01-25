@@ -17,7 +17,7 @@ const createSubscriber = catchAsync(async (req: Request, res: Response) => {
 });
 
 const getSubscriberList = catchAsync(async (req: Request, res: Response) => {
-  const result = await SubscriberService.getSubscriberListFromDB();
+  const result = await SubscriberService.getSubscriberListFromDB(req.query);
 
   sendResponse(res, {
     success: true,

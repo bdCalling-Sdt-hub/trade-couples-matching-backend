@@ -3,6 +3,9 @@ import ApiError from '../../../errors/ApiError';
 import { ViewMe } from './viewMe.model';
 import { IViewMe } from './viewMe.interface';
 import mongoose from 'mongoose';
+import { Favorite } from '../favorite/favorite.model';
+import { Bio } from '../bio/bio.model';
+import { JwtPayload } from 'jsonwebtoken';
 
 const makeViewMeToDB = async (
   user: string,
@@ -26,16 +29,31 @@ const makeViewMeToDB = async (
 
 };
 
-const getViewMeListFromDB = async (user: string): Promise<IViewMe[]> => {
+const getViewMeListFromDB = async (user: JwtPayload): Promise<IViewMe[]> => {
 
   const result = await ViewMe.find({ user })
     .populate({
-      path: 'user',
+      path: 'view',
       select: 'name image',
     })
-    .select("user");
+    .select("view")
+    .lean();
 
-  return result;
+  if(!result?.length){
+    throw new ApiError(StatusCodes.BAD_REQUEST, "No data found")
+  }
+
+  const users: any[] = await Promise.all(result.map(async (item: any) => {
+    const isBookedMark = await Favorite.findOne({ userId: user, favoriteUserId: item?.view?._id });
+    const bio = await Bio.findOne({user: item?.view?._id}).select("age country").lean();
+    return {
+      ...item,
+      ...bio,
+      isFavorite: !!isBookedMark
+    }
+  }))
+
+  return users;
 };
 
 export const ViewMeService = {

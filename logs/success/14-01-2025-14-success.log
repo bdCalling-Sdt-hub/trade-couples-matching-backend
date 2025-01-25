@@ -1,0 +1,475 @@
+Tue Jan 14 2025 14:10:15 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/rectangle-5302-(1)-1736242091704.png 200 - 0.958 ms
+Tue Jan 14 2025 14:10:20 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:10:20 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:10:20 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:10:20 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:10:20 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:10:21 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:10:21 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:10:21 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.276 ms
+Tue Jan 14 2025 14:10:21 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 304 - 6.968 ms
+Tue Jan 14 2025 14:10:26 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.070 ms
+Tue Jan 14 2025 14:10:26 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio 304 - 2.482 ms
+Tue Jan 14 2025 14:10:26 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/rectangle-5302-(1)-1736242091704.png 200 - 0.538 ms
+Tue Jan 14 2025 14:10:29 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:10:29 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:10:29 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:10:29 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:10:29 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:10:30 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:10:30 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:10:30 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.062 ms
+Tue Jan 14 2025 14:10:30 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 304 - 2.245 ms
+Tue Jan 14 2025 14:15:14 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/subscriber 204 - 0.164 ms
+Tue Jan 14 2025 14:15:14 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/subscriber 200 - 12.682 ms
+Tue Jan 14 2025 14:15:14 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/faq 204 - 0.064 ms
+Tue Jan 14 2025 14:15:14 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/faq 304 - 5.487 ms
+Tue Jan 14 2025 14:17:37 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/sign-up 204 - 0.157 ms
+Tue Jan 14 2025 14:17:45 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/sign-up 204 - 0.084 ms
+Tue Jan 14 2025 14:17:45 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/user/sign-up 200 - 262.750 ms
+Tue Jan 14 2025 14:17:48 [TRAD-COUPLES-MATCHING] info: Mail send successfully
+Tue Jan 14 2025 14:19:3 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/auth/verify-email 204 - 0.054 ms
+Tue Jan 14 2025 14:19:14 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/auth/verify-email 204 - 0.069 ms
+Tue Jan 14 2025 14:19:14 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/auth/verify-email 200 - 18.265 ms
+Tue Jan 14 2025 14:20:50 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/create-bio 204 - 0.049 ms
+Tue Jan 14 2025 14:20:50 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/bio/create-bio 200 - 8.468 ms
+Tue Jan 14 2025 14:23:6 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/questionnaire/answer 204 - 0.155 ms
+Tue Jan 14 2025 14:23:6 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/questionnaire/answer 200 - 9.334 ms
+Tue Jan 14 2025 14:23:22 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/auth/login 204 - 0.119 ms
+Tue Jan 14 2025 14:23:22 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/auth/login 200 - 216.997 ms
+Tue Jan 14 2025 14:23:31 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.061 ms
+Tue Jan 14 2025 14:23:31 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/discover 204 - 0.060 ms
+Tue Jan 14 2025 14:23:55 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.078 ms
+Tue Jan 14 2025 14:23:55 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/rectangle-5302-(1)-1736242091704.png 200 - 1.249 ms
+Tue Jan 14 2025 14:24:0 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:0 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:0 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:0 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:0 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:0 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:0 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:2 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:2 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:3 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:3 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:3 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.086 ms
+Tue Jan 14 2025 14:24:3 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.036 ms
+Tue Jan 14 2025 14:24:3 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 200 - 7.656 ms
+Tue Jan 14 2025 14:24:6 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/discover 204 - 0.051 ms
+Tue Jan 14 2025 14:24:29 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:29 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:29 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:29 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:29 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:29 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:29 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:30 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:30 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:31 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:31 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:31 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.090 ms
+Tue Jan 14 2025 14:24:31 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.059 ms
+Tue Jan 14 2025 14:24:31 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/discover 204 - 0.037 ms
+Tue Jan 14 2025 14:24:31 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 304 - 5.357 ms
+Tue Jan 14 2025 14:24:41 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:41 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:41 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:41 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:41 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:42 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:42 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:43 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:43 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:44 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:44 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:44 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.048 ms
+Tue Jan 14 2025 14:24:44 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.100 ms
+Tue Jan 14 2025 14:24:44 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 304 - 12.082 ms
+Tue Jan 14 2025 14:24:54 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:54 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:54 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:54 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:54 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:54 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:54 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:24:54 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:54 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:24:54 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.048 ms
+Tue Jan 14 2025 14:24:54 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 304 - 2.422 ms
+Tue Jan 14 2025 14:25:1 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/auth/login 204 - 0.084 ms
+Tue Jan 14 2025 14:25:13 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/auth/login 204 - 0.053 ms
+Tue Jan 14 2025 14:25:13 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/auth/login 200 - 219.022 ms
+Tue Jan 14 2025 14:25:16 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.053 ms
+Tue Jan 14 2025 14:25:16 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/discover 204 - 0.036 ms
+Tue Jan 14 2025 14:25:16 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio 200 - 7.139 ms
+Tue Jan 14 2025 14:25:16 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/discover 200 - 12.905 ms
+Tue Jan 14 2025 14:25:16 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/image-8-(2)-1736591591599.jpg 200 - 1.182 ms
+Tue Jan 14 2025 14:25:32 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:25:32 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:25:32 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:25:33 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:25:33 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:25:34 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:25:34 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:25:35 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:25:35 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:25:35 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.137 ms
+Tue Jan 14 2025 14:25:35 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.042 ms
+Tue Jan 14 2025 14:25:35 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 200 - 4.276 ms
+Tue Jan 14 2025 14:25:35 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio 304 - 4.420 ms
+Tue Jan 14 2025 14:25:35 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/rectangle-5302-(1)-1736242091704.png 200 - 1.913 ms
+Tue Jan 14 2025 14:25:50 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/questionnaire 204 - 0.045 ms
+Tue Jan 14 2025 14:25:50 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/questionnaire 304 - 15.885 ms
+Tue Jan 14 2025 14:25:53 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/gallery 204 - 0.053 ms
+Tue Jan 14 2025 14:25:53 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/rectangle-5302-(1)-1736242091704.png 304 - 0.460 ms
+Tue Jan 14 2025 14:25:53 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/gallery 304 - 2.631 ms
+Tue Jan 14 2025 14:25:53 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/edited-image-1-1736584184182.jpg 304 - 1.593 ms
+Tue Jan 14 2025 14:25:53 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/group-290650-(2)-1736585607745.png 304 - 1.562 ms
+Tue Jan 14 2025 14:25:53 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/1251353-1736759268670.jpg 304 - 1.835 ms
+Tue Jan 14 2025 14:26:3 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/group-290650-(2)-1736585607745.png 304 - 0.293 ms
+Tue Jan 14 2025 14:26:16 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/gallery/67823187c9316b093f227ec2 204 - 0.058 ms
+Tue Jan 14 2025 14:26:16 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - PATCH /api/v1/gallery/67823187c9316b093f227ec2 200 - 22.655 ms
+Tue Jan 14 2025 14:26:21 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:26:21 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:26:21 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:26:21 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:26:21 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:26:21 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:26:21 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:26:22 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:26:22 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:26:23 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:26:23 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:26:24 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:26:24 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:26:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.046 ms
+Tue Jan 14 2025 14:26:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.032 ms
+Tue Jan 14 2025 14:26:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 304 - 3.330 ms
+Tue Jan 14 2025 14:26:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio 304 - 2.916 ms
+Tue Jan 14 2025 14:26:25 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/gallery 204 - 0.055 ms
+Tue Jan 14 2025 14:26:25 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/rectangle-5302-(1)-1736242091704.png 304 - 0.323 ms
+Tue Jan 14 2025 14:26:25 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/gallery 200 - 2.048 ms
+Tue Jan 14 2025 14:26:25 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/edited-image-1-1736584184182.jpg 304 - 0.593 ms
+Tue Jan 14 2025 14:26:25 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/1251353-1736759268670.jpg 304 - 0.766 ms
+Tue Jan 14 2025 14:26:25 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/edited-image-1-1736843176813.jpg 200 - 1.996 ms
+Tue Jan 14 2025 14:26:43 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/gallery/upload-picture 204 - 0.196 ms
+Tue Jan 14 2025 14:26:43 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/gallery/upload-picture 200 - 7.818 ms
+Tue Jan 14 2025 14:26:43 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/gallery 204 - 0.041 ms
+Tue Jan 14 2025 14:26:43 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/gallery 200 - 1.987 ms
+Tue Jan 14 2025 14:26:43 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/istockphoto-1469618147-612x612-(1)-1736843203834.jpg 200 - 0.745 ms
+Tue Jan 14 2025 14:27:17 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/gallery/67861fc3ad5e4d1b2a327fc3 204 - 0.066 ms
+Tue Jan 14 2025 14:27:17 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - DELETE /api/v1/gallery/67861fc3ad5e4d1b2a327fc3 200 - 7.224 ms
+Tue Jan 14 2025 14:27:20 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:27:20 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:27:20 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:27:20 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:27:20 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:27:20 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:27:20 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:27:20 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:27:20 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:27:21 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:27:21 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:27:23 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:27:23 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:27:23 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.073 ms
+Tue Jan 14 2025 14:27:23 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.057 ms
+Tue Jan 14 2025 14:27:23 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 304 - 4.274 ms
+Tue Jan 14 2025 14:27:23 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio 304 - 19.887 ms
+Tue Jan 14 2025 14:27:23 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/rectangle-5302-(1)-1736242091704.png 200 - 0.653 ms
+Tue Jan 14 2025 14:27:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/gallery 204 - 0.049 ms
+Tue Jan 14 2025 14:27:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/rectangle-5302-(1)-1736242091704.png 304 - 0.272 ms
+Tue Jan 14 2025 14:27:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/gallery 200 - 1.794 ms
+Tue Jan 14 2025 14:27:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/edited-image-1-1736584184182.jpg 304 - 2.646 ms
+Tue Jan 14 2025 14:27:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/edited-image-1-1736843176813.jpg 304 - 0.429 ms
+Tue Jan 14 2025 14:27:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/1251353-1736759268670.jpg 304 - 1.854 ms
+Tue Jan 14 2025 14:27:32 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/questionnaire 204 - 0.175 ms
+Tue Jan 14 2025 14:27:32 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/questionnaire 304 - 3.439 ms
+Tue Jan 14 2025 14:28:9 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.064 ms
+Tue Jan 14 2025 14:28:9 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - PATCH /api/v1/bio 200 - 4.882 ms
+Tue Jan 14 2025 14:28:18 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:28:18 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:28:18 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:28:18 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:28:18 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:28:18 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:28:18 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:28:18 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:28:18 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:28:19 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:28:19 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:28:21 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:28:21 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:28:21 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.047 ms
+Tue Jan 14 2025 14:28:21 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.036 ms
+Tue Jan 14 2025 14:28:21 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 304 - 3.518 ms
+Tue Jan 14 2025 14:28:21 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio 200 - 4.293 ms
+Tue Jan 14 2025 14:28:37 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/questionnaire 204 - 0.047 ms
+Tue Jan 14 2025 14:28:37 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/questionnaire 304 - 2.646 ms
+Tue Jan 14 2025 14:28:53 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/questionnaire 204 - 0.517 ms
+Tue Jan 14 2025 14:28:53 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - PATCH /api/v1/questionnaire 200 - 9.236 ms
+Tue Jan 14 2025 14:29:31 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat? 204 - 0.046 ms
+Tue Jan 14 2025 14:29:31 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/message/undefined 204 - 0.033 ms
+Tue Jan 14 2025 14:29:31 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/chat? 304 - 30.520 ms
+Tue Jan 14 2025 14:29:31 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/image-8-(2)-1736591591599.jpg 304 - 0.950 ms
+Tue Jan 14 2025 14:29:39 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat/6783a7a2b9e1f8cc7daddd70 204 - 0.044 ms
+Tue Jan 14 2025 14:29:39 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/chat/6783a7a2b9e1f8cc7daddd70 200 - 3.724 ms
+Tue Jan 14 2025 14:29:39 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat? 204 - 0.047 ms
+Tue Jan 14 2025 14:29:39 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/chat? 304 - 5.776 ms
+Tue Jan 14 2025 14:29:39 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/message/6783a7a2b9e1f8cc7daddd70 204 - 0.046 ms
+Tue Jan 14 2025 14:29:39 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/message/6783a7a2b9e1f8cc7daddd70 304 - 2.462 ms
+Tue Jan 14 2025 14:29:39 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/istockphoto-1173074943-612x612-1736756628319.jpg 304 - 0.345 ms
+Tue Jan 14 2025 14:29:48 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/message 204 - 0.064 ms
+Tue Jan 14 2025 14:29:48 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/message 200 - 5.715 ms
+Tue Jan 14 2025 14:30:1 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/message 204 - 0.195 ms
+Tue Jan 14 2025 14:30:1 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/message 200 - 122.890 ms
+Tue Jan 14 2025 14:30:1 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/1251353-1736843401301.jpg 200 - 5.138 ms
+Tue Jan 14 2025 14:30:12 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat?search=m 204 - 0.058 ms
+Tue Jan 14 2025 14:30:12 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/chat?search=m 200 - 21.731 ms
+Tue Jan 14 2025 14:30:12 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat?search=mi 204 - 0.058 ms
+Tue Jan 14 2025 14:30:12 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/chat?search=mi 200 - 4.756 ms
+Tue Jan 14 2025 14:30:12 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat?search=miy 204 - 0.047 ms
+Tue Jan 14 2025 14:30:12 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/chat?search=miy 200 - 3.239 ms
+Tue Jan 14 2025 14:30:16 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat?search=a 204 - 0.076 ms
+Tue Jan 14 2025 14:30:16 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/chat?search=a 200 - 20.144 ms
+Tue Jan 14 2025 14:30:16 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat?search=ap 204 - 0.047 ms
+Tue Jan 14 2025 14:30:16 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/chat?search=ap 200 - 11.708 ms
+Tue Jan 14 2025 14:30:17 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat?search=apu 204 - 0.053 ms
+Tue Jan 14 2025 14:30:17 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/chat?search=apu 200 - 4.426 ms
+Tue Jan 14 2025 14:30:17 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat?search=apu+ 204 - 0.123 ms
+Tue Jan 14 2025 14:30:17 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/chat?search=apu+ 200 - 13.732 ms
+Tue Jan 14 2025 14:30:18 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat?search=apu+j 204 - 0.057 ms
+Tue Jan 14 2025 14:30:18 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/chat?search=apu+j 200 - 4.107 ms
+Tue Jan 14 2025 14:30:43 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/user-details/678246e485a9d17454fb7c3b 204 - 0.092 ms
+Tue Jan 14 2025 14:30:43 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/user-details/678246e485a9d17454fb7c3b 304 - 6.249 ms
+Tue Jan 14 2025 14:30:43 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/image-8-(2)-1736591591599.jpg 200 - 0.670 ms
+Tue Jan 14 2025 14:31:9 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/edited-image-0-1736591689281.jpg 200 - 0.984 ms
+Tue Jan 14 2025 14:31:19 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/message/undefined 204 - 0.049 ms
+Tue Jan 14 2025 14:31:21 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat/6783a7a2b9e1f8cc7daddd70 204 - 0.053 ms
+Tue Jan 14 2025 14:31:21 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/chat/6783a7a2b9e1f8cc7daddd70 200 - 2.305 ms
+Tue Jan 14 2025 14:31:21 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat? 204 - 0.040 ms
+Tue Jan 14 2025 14:31:21 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/chat? 200 - 5.847 ms
+Tue Jan 14 2025 14:31:40 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/report 204 - 0.159 ms
+Tue Jan 14 2025 14:31:40 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/report 200 - 19.885 ms
+Tue Jan 14 2025 14:32:0 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people? 204 - 0.066 ms
+Tue Jan 14 2025 14:32:0 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people? 200 - 7.793 ms
+Tue Jan 14 2025 14:32:0 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/image-8-(2)-1736591591599.jpg 200 - 0.477 ms
+Tue Jan 14 2025 14:32:7 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=d 204 - 0.055 ms
+Tue Jan 14 2025 14:32:7 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=df 204 - 0.053 ms
+Tue Jan 14 2025 14:32:7 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=d 200 - 14.340 ms
+Tue Jan 14 2025 14:32:7 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=df 200 - 9.438 ms
+Tue Jan 14 2025 14:32:7 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=dfg 204 - 0.077 ms
+Tue Jan 14 2025 14:32:7 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=dfg 200 - 6.645 ms
+Tue Jan 14 2025 14:32:8 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=dfgj 204 - 0.043 ms
+Tue Jan 14 2025 14:32:8 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=dfgj 200 - 6.297 ms
+Tue Jan 14 2025 14:32:9 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search= 204 - 0.050 ms
+Tue Jan 14 2025 14:32:9 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search= 200 - 4.654 ms
+Tue Jan 14 2025 14:32:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=m 204 - 0.054 ms
+Tue Jan 14 2025 14:32:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=m 200 - 4.633 ms
+Tue Jan 14 2025 14:32:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=mi 204 - 0.047 ms
+Tue Jan 14 2025 14:32:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=mi 200 - 4.595 ms
+Tue Jan 14 2025 14:32:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=mit 204 - 0.180 ms
+Tue Jan 14 2025 14:32:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=mit 200 - 6.753 ms
+Tue Jan 14 2025 14:32:11 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=mith 204 - 0.058 ms
+Tue Jan 14 2025 14:32:11 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=mith 200 - 4.702 ms
+Tue Jan 14 2025 14:32:11 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=mithi 204 - 0.045 ms
+Tue Jan 14 2025 14:32:11 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=mithi 200 - 4.794 ms
+Tue Jan 14 2025 14:32:11 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=mithil 204 - 0.045 ms
+Tue Jan 14 2025 14:32:11 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=mithil 200 - 4.298 ms
+Tue Jan 14 2025 14:32:11 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=mithila 204 - 0.041 ms
+Tue Jan 14 2025 14:32:11 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=mithila 200 - 5.978 ms
+Tue Jan 14 2025 14:32:16 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=a 204 - 0.052 ms
+Tue Jan 14 2025 14:32:16 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=a 200 - 8.579 ms
+Tue Jan 14 2025 14:32:16 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=ap 204 - 0.055 ms
+Tue Jan 14 2025 14:32:16 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=ap 304 - 5.854 ms
+Tue Jan 14 2025 14:32:17 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=apu 204 - 0.041 ms
+Tue Jan 14 2025 14:32:17 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=apu 304 - 6.082 ms
+Tue Jan 14 2025 14:32:17 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=apu+ 204 - 0.068 ms
+Tue Jan 14 2025 14:32:17 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=apu+ 304 - 19.457 ms
+Tue Jan 14 2025 14:32:29 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=apu+&country=New+Zealand 204 - 0.051 ms
+Tue Jan 14 2025 14:32:29 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=apu+&country=New+Zealand 200 - 14.567 ms
+Tue Jan 14 2025 14:32:35 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=apu+&country=Japan 204 - 0.046 ms
+Tue Jan 14 2025 14:32:35 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=apu+&country=Japan 200 - 6.935 ms
+Tue Jan 14 2025 14:32:44 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=apu+&country=Japan&maritalStatus=Divorced 204 - 0.102 ms
+Tue Jan 14 2025 14:32:44 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=apu+&country=Japan&maritalStatus=Divorced 200 - 20.350 ms
+Tue Jan 14 2025 14:32:46 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=apu+&country=Japan&maritalStatus=Single 204 - 0.045 ms
+Tue Jan 14 2025 14:32:46 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=apu+&country=Japan&maritalStatus=Single 200 - 21.179 ms
+Tue Jan 14 2025 14:32:50 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=apu+&country=Japan&maritalStatus=Single&height=171cm-180cm 204 - 0.053 ms
+Tue Jan 14 2025 14:32:50 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=apu+&country=Japan&maritalStatus=Single&height=171cm-180cm 200 - 6.001 ms
+Tue Jan 14 2025 14:32:53 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=apu+&country=Japan&maritalStatus=Single&height=152cm 204 - 0.058 ms
+Tue Jan 14 2025 14:32:53 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=apu+&country=Japan&maritalStatus=Single&height=152cm 200 - 3.993 ms
+Tue Jan 14 2025 14:32:58 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=apu+&country=Japan&maritalStatus=Single&height=171cm-180cm&bodyShape=average 204 - 0.042 ms
+Tue Jan 14 2025 14:32:58 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=apu+&country=Japan&maritalStatus=Single&height=171cm-180cm&bodyShape=average 200 - 5.321 ms
+Tue Jan 14 2025 14:32:59 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=apu+&country=Japan&maritalStatus=Single&height=171cm-180cm&bodyShape=slim 204 - 0.046 ms
+Tue Jan 14 2025 14:32:59 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=apu+&country=Japan&maritalStatus=Single&height=171cm-180cm&bodyShape=slim 200 - 6.339 ms
+Tue Jan 14 2025 14:33:2 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people?search=apu+&country=Japan&maritalStatus=Single&height=171cm-180cm&bodyShape=slim&hairColor=Red 204 - 0.042 ms
+Tue Jan 14 2025 14:33:2 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people?search=apu+&country=Japan&maritalStatus=Single&height=171cm-180cm&bodyShape=slim&hairColor=Red 200 - 3.987 ms
+Tue Jan 14 2025 14:33:12 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:33:12 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:33:12 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:33:12 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:33:12 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:33:12 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:33:12 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:33:12 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:33:12 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:33:13 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:33:13 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:33:13 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.053 ms
+Tue Jan 14 2025 14:33:13 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.097 ms
+Tue Jan 14 2025 14:33:13 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people? 204 - 0.037 ms
+Tue Jan 14 2025 14:33:13 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 304 - 4.798 ms
+Tue Jan 14 2025 14:33:13 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio 304 - 4.264 ms
+Tue Jan 14 2025 14:33:13 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people? 304 - 7.614 ms
+Tue Jan 14 2025 14:33:13 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/image-8-(2)-1736591591599.jpg 200 - 0.703 ms
+Tue Jan 14 2025 14:33:19 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/favorite/make-favorite 204 - 0.050 ms
+Tue Jan 14 2025 14:33:19 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/favorite/make-favorite 200 - 18.612 ms
+Tue Jan 14 2025 14:33:19 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people? 204 - 0.182 ms
+Tue Jan 14 2025 14:33:19 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people? 200 - 5.661 ms
+Tue Jan 14 2025 14:33:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/favorite/make-favorite 204 - 0.058 ms
+Tue Jan 14 2025 14:33:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/favorite/make-favorite 200 - 5.753 ms
+Tue Jan 14 2025 14:33:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people? 204 - 0.048 ms
+Tue Jan 14 2025 14:33:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people? 200 - 7.154 ms
+Tue Jan 14 2025 14:33:32 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/rectangle-5302-(1)-1736242091704.png 200 - 0.806 ms
+Tue Jan 14 2025 14:33:42 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/favorite 204 - 0.046 ms
+Tue Jan 14 2025 14:33:42 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/favorite 304 - 4.388 ms
+Tue Jan 14 2025 14:33:52 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/favorite/make-favorite 204 - 0.054 ms
+Tue Jan 14 2025 14:33:52 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/favorite/make-favorite 200 - 3.146 ms
+Tue Jan 14 2025 14:33:52 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/favorite 204 - 0.041 ms
+Tue Jan 14 2025 14:33:52 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/favorite 200 - 2.516 ms
+Tue Jan 14 2025 14:34:4 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat/678246e485a9d17454fb7c3b 204 - 0.066 ms
+Tue Jan 14 2025 14:34:4 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/chat/678246e485a9d17454fb7c3b 200 - 2.733 ms
+Tue Jan 14 2025 14:34:5 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat? 204 - 0.045 ms
+Tue Jan 14 2025 14:34:5 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/message/undefined 204 - 0.042 ms
+Tue Jan 14 2025 14:34:5 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/chat? 304 - 8.984 ms
+Tue Jan 14 2025 14:34:5 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/image-8-(2)-1736591591599.jpg 304 - 0.598 ms
+Tue Jan 14 2025 14:34:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/chat/6783a7a2b9e1f8cc7daddd70 204 - 0.171 ms
+Tue Jan 14 2025 14:34:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/chat/6783a7a2b9e1f8cc7daddd70 200 - 3.001 ms
+Tue Jan 14 2025 14:34:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/chat? 304 - 12.958 ms
+Tue Jan 14 2025 14:34:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/message/6783a7a2b9e1f8cc7daddd70 204 - 0.053 ms
+Tue Jan 14 2025 14:34:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/message/6783a7a2b9e1f8cc7daddd70 200 - 3.165 ms
+Tue Jan 14 2025 14:34:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/istockphoto-1173074943-612x612-1736756628319.jpg 304 - 1.206 ms
+Tue Jan 14 2025 14:34:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/1251353-1736843401301.jpg 304 - 0.794 ms
+Tue Jan 14 2025 14:34:25 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/user-details/678246e485a9d17454fb7c3b 204 - 0.045 ms
+Tue Jan 14 2025 14:34:25 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/user-details/678246e485a9d17454fb7c3b 304 - 4.919 ms
+Tue Jan 14 2025 14:34:35 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/discover 204 - 0.045 ms
+Tue Jan 14 2025 14:34:35 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/discover 200 - 5.061 ms
+Tue Jan 14 2025 14:35:30 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/find-people? 204 - 0.057 ms
+Tue Jan 14 2025 14:35:30 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/find-people? 200 - 5.720 ms
+Tue Jan 14 2025 14:36:0 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/viewMe 204 - 0.101 ms
+Tue Jan 14 2025 14:36:0 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/viewMe 304 - 7.218 ms
+Tue Jan 14 2025 14:36:17 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/package 204 - 0.045 ms
+Tue Jan 14 2025 14:36:17 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/package 304 - 3.474 ms
+Tue Jan 14 2025 14:37:7 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio/discover 204 - 0.133 ms
+Tue Jan 14 2025 14:37:8 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio/discover 304 - 26.258 ms
+Tue Jan 14 2025 14:38:27 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:38:27 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:38:27 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:38:27 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:38:27 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:38:28 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:38:28 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:38:29 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:38:29 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:38:29 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/faq 204 - 0.048 ms
+Tue Jan 14 2025 14:38:29 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.062 ms
+Tue Jan 14 2025 14:38:29 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 304 - 2.765 ms
+Tue Jan 14 2025 14:38:29 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/faq 304 - 4.358 ms
+Tue Jan 14 2025 14:38:38 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/all-user?page=1 204 - 0.042 ms
+Tue Jan 14 2025 14:38:38 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/all-user?page=1 200 - 18.645 ms
+Tue Jan 14 2025 14:38:38 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/image-8-(2)-1736591591599.jpg 304 - 0.520 ms
+Tue Jan 14 2025 14:38:38 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/rectangle-5302-(1)-1736242091704.png 304 - 0.888 ms
+Tue Jan 14 2025 14:39:0 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/subscriber?page=1 204 - 0.054 ms
+Tue Jan 14 2025 14:39:0 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/subscriber?page=1 200 - 4.280 ms
+Tue Jan 14 2025 14:39:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/all-admin 204 - 0.040 ms
+Tue Jan 14 2025 14:39:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/all-admin 200 - 2.034 ms
+Tue Jan 14 2025 14:39:46 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/create-admin 204 - 0.093 ms
+Tue Jan 14 2025 14:40:0 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/create-admin 204 - 0.060 ms
+Tue Jan 14 2025 14:40:0 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/user/create-admin 200 - 220.883 ms
+Tue Jan 14 2025 14:40:1 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/all-admin 204 - 0.063 ms
+Tue Jan 14 2025 14:40:1 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/all-admin 200 - 2.141 ms
+Tue Jan 14 2025 14:40:7 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/blogs 204 - 0.041 ms
+Tue Jan 14 2025 14:40:7 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/blogs 304 - 20.241 ms
+Tue Jan 14 2025 14:40:22 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/blogs/create-blog 204 - 0.060 ms
+Tue Jan 14 2025 14:40:22 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/blogs/create-blog 200 - 5.216 ms
+Tue Jan 14 2025 14:40:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/blogs 204 - 0.064 ms
+Tue Jan 14 2025 14:40:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/blogs 200 - 2.757 ms
+Tue Jan 14 2025 14:40:24 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/istockphoto-1469618147-612x612-(1)-1736844022654.jpg 200 - 0.564 ms
+Tue Jan 14 2025 14:40:35 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.054 ms
+Tue Jan 14 2025 14:40:35 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/blogs 204 - 0.087 ms
+Tue Jan 14 2025 14:40:35 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio 304 - 8.855 ms
+Tue Jan 14 2025 14:40:35 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/blogs 200 - 5.034 ms
+Tue Jan 14 2025 14:41:7 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/blogs?page&limit 200 - 2.541 ms
+Tue Jan 14 2025 14:41:38 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:41:38 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:41:38 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:41:38 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:41:38 [TRAD-COUPLES-MATCHING] info: [31mA user disconnect[39m
+Tue Jan 14 2025 14:41:39 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:41:39 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:41:40 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:41:40 [TRAD-COUPLES-MATCHING] info: [34mA user connected[39m
+Tue Jan 14 2025 14:41:40 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.044 ms
+Tue Jan 14 2025 14:41:40 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.041 ms
+Tue Jan 14 2025 14:41:40 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/blogs 204 - 0.029 ms
+Tue Jan 14 2025 14:41:40 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 304 - 3.523 ms
+Tue Jan 14 2025 14:41:40 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio 304 - 3.475 ms
+Tue Jan 14 2025 14:41:40 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/blogs 304 - 5.140 ms
+Tue Jan 14 2025 14:41:40 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/istockphoto-1469618147-612x612-(1)-1736844022654.jpg 200 - 0.520 ms
+Tue Jan 14 2025 14:42:0 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/blogs/678622f6ad5e4d1b2a3280bc 204 - 0.042 ms
+Tue Jan 14 2025 14:42:0 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/blogs/678622f6ad5e4d1b2a3280bc 200 - 1.639 ms
+Tue Jan 14 2025 14:42:0 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/istockphoto-1469618147-612x612-(1)-1736844022654.jpg 200 - 0.581 ms
+Tue Jan 14 2025 14:42:11 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/faq?page=1 204 - 0.042 ms
+Tue Jan 14 2025 14:42:11 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/faq?page=1 304 - 2.098 ms
+Tue Jan 14 2025 14:42:22 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/faq/create-faq 204 - 0.052 ms
+Tue Jan 14 2025 14:42:22 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/faq/create-faq 200 - 3.287 ms
+Tue Jan 14 2025 14:42:23 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/faq?page=1 204 - 0.044 ms
+Tue Jan 14 2025 14:42:23 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/faq?page=1 200 - 1.927 ms
+Tue Jan 14 2025 14:42:27 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/istockphoto-1469618147-612x612-(1)-1736844022654.jpg 304 - 0.294 ms
+Tue Jan 14 2025 14:42:29 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/faq 204 - 0.045 ms
+Tue Jan 14 2025 14:42:29 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/faq 200 - 2.162 ms
+Tue Jan 14 2025 14:42:46 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/report?page=1 204 - 0.047 ms
+Tue Jan 14 2025 14:42:46 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/report?page=1 200 - 4.264 ms
+Tue Jan 14 2025 14:43:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/report/678246e485a9d17454fb7c3b 204 - 0.047 ms
+Tue Jan 14 2025 14:43:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - PATCH /api/v1/report/678246e485a9d17454fb7c3b 200 - 3.958 ms
+Tue Jan 14 2025 14:43:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/report?page=1 204 - 0.047 ms
+Tue Jan 14 2025 14:43:10 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/report?page=1 200 - 3.637 ms
+Tue Jan 14 2025 14:43:20 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/report/678246e485a9d17454fb7c3b 204 - 0.064 ms
+Tue Jan 14 2025 14:43:20 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - PATCH /api/v1/report/678246e485a9d17454fb7c3b 200 - 5.332 ms
+Tue Jan 14 2025 14:43:20 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/report?page=1 204 - 0.045 ms
+Tue Jan 14 2025 14:43:20 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/report?page=1 200 - 13.230 ms
+Tue Jan 14 2025 14:43:30 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/subscription/subscription 204 - 0.055 ms
+Tue Jan 14 2025 14:43:30 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/subscription/subscription 304 - 3.899 ms
+Tue Jan 14 2025 14:43:41 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/resources/about 204 - 0.043 ms
+Tue Jan 14 2025 14:43:41 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/resources/about 200 - 17.145 ms
+Tue Jan 14 2025 14:43:46 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/resources/terms 204 - 0.044 ms
+Tue Jan 14 2025 14:43:46 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/resources/terms 200 - 1.569 ms
+Tue Jan 14 2025 14:43:53 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/resources/terms 204 - 0.049 ms
+Tue Jan 14 2025 14:43:53 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/resources/terms 200 - 4.134 ms
+Tue Jan 14 2025 14:43:55 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/resources/terms 200 - 1.608 ms
+Tue Jan 14 2025 14:44:3 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/bio 204 - 0.056 ms
+Tue Jan 14 2025 14:44:3 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/resources/terms 204 - 0.033 ms
+Tue Jan 14 2025 14:44:3 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/bio 304 - 3.145 ms
+Tue Jan 14 2025 14:44:3 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/resources/terms 200 - 2.610 ms
+Tue Jan 14 2025 14:44:23 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/resources/policy 204 - 0.091 ms
+Tue Jan 14 2025 14:44:23 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/resources/policy 200 - 3.859 ms
+Tue Jan 14 2025 14:44:30 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/resources/policy 204 - 0.053 ms
+Tue Jan 14 2025 14:44:30 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - POST /api/v1/resources/policy 200 - 3.635 ms
+Tue Jan 14 2025 14:44:31 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/resources/policy 200 - 2.477 ms
+Tue Jan 14 2025 14:44:37 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/resources/press 204 - 0.190 ms
+Tue Jan 14 2025 14:44:37 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/resources/press 200 - 3.883 ms
+Tue Jan 14 2025 14:44:39 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/resources/affiliate 204 - 0.060 ms
+Tue Jan 14 2025 14:44:39 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/resources/affiliate 200 - 1.820 ms
+Tue Jan 14 2025 14:44:40 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/resources/support 204 - 0.096 ms
+Tue Jan 14 2025 14:44:40 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/resources/support 200 - 1.540 ms
+Tue Jan 14 2025 14:44:43 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/resources/safety 204 - 0.044 ms
+Tue Jan 14 2025 14:44:43 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/resources/safety 200 - 4.321 ms
+Tue Jan 14 2025 14:44:48 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/resources/cookie 204 - 0.043 ms
+Tue Jan 14 2025 14:44:48 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/resources/cookie 200 - 1.749 ms
+Tue Jan 14 2025 14:45:13 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile-update 204 - 0.175 ms
+Tue Jan 14 2025 14:45:13 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - PATCH /api/v1/user/profile-update 200 - 8.265 ms
+Tue Jan 14 2025 14:45:15 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - OPTIONS /api/v1/user/profile 204 - 0.044 ms
+Tue Jan 14 2025 14:45:15 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 200 - 3.180 ms
+Tue Jan 14 2025 14:45:15 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/hd-wallpaper-shin-chan-anime-crayonshinchan-shin-chan-shinchan-1736844313846.jpg 200 - 0.753 ms
+Tue Jan 14 2025 14:45:17 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET /api/v1/user/profile 304 - 2.497 ms
+Tue Jan 14 2025 14:45:18 [TRAD-COUPLES-MATCHING] info: 115.127.157.41 - GET //image/hd-wallpaper-shin-chan-anime-crayonshinchan-shin-chan-shinchan-1736844313846.jpg 304 - 0.951 ms

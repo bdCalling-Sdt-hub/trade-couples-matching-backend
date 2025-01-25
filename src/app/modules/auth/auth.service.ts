@@ -119,6 +119,15 @@ const verifyEmailToDB = async (payload: IVerifyEmail) => {
       { verified: true, authentication: { oneTimeCode: null, expireAt: null } }
     );
     message = 'Your email has been successfully verified.';
+
+    //create token
+    const createToken = jwtHelper.createToken(
+      { id: isExistUser._id, gender: isExistUser.gender, role: isExistUser.role, email: isExistUser.email },
+      config.jwt.jwt_secret as Secret,
+      config.jwt.jwt_expire_in as string
+    );
+
+    return {createToken, message};
   } else {
     await User.findOneAndUpdate(
       { _id: isExistUser._id },
