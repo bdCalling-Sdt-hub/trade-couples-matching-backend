@@ -112,6 +112,7 @@ const verifyEmailToDB = async (payload: IVerifyEmail) => {
 
   let message;
   let data;
+  let accessToken;
 
   if (!isExistUser.verified) {
     await User.findOneAndUpdate(
@@ -147,11 +148,19 @@ const verifyEmailToDB = async (payload: IVerifyEmail) => {
       token: createToken,
       expireAt: new Date(Date.now() + 10 * 60000),
     });
-    message =
-      'Verification Successful: Please securely store and utilize this code for reset password';
+    message = 'Verification Successful: Please securely store and utilize this code for reset password';
     data = createToken;
+
+    //create token
+    accessToken = jwtHelper.createToken(
+      { id: isExistUser._id, gender: isExistUser.gender, role: isExistUser.role, email: isExistUser.email },
+      config.jwt.jwt_secret as Secret,
+      config.jwt.jwt_expire_in as string
+    );
+
+    
   }
-  return { data, message };
+  return { data, accessToken, message };
 };
 
 //forget password
